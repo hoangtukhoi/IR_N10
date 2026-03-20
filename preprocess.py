@@ -1,16 +1,18 @@
-import pandas as pd
+import re
+import nltk
+from nltk.corpus import stopwords
 
-# Đọc dữ liệu từ file CSV gốc
-df = pd.read_csv('tmdb_5000_movies.csv')
+nltk.download('stopwords', quiet=True)
 
-# Lọc lấy 3 cột cần thiết (lưu ý: trong bộ TMDB, cột tên phim được đặt tên là 'title')
-df_filtered = df[['id', 'title', 'overview']].copy()
+def clean_text(text):
+  text = text.lower()
+  text = re.sub(r"http\S+|www\S+", " ", text)
+  text = re.sub(r"[^a-zA-ZÀ-ỹ\s]", " ", text)
+  text = re.sub(r"\s+", " ", text).strip()
+  return text
 
-# Đổi tên cột 'title' thành 'name'
-df_filtered.rename(columns={'title': 'name'}, inplace=True)
-
-# Xóa các dòng bị thiếu dữ liệu (NaN) ở cột overview để tránh lỗi khi xử lý NLP
-df_filtered.dropna(subset=['overview'], inplace=True)
-
-# Lưu tập dữ liệu đã lọc ra một file CSV mới
-df_filtered.to_csv('movies_filtered.csv', index=False)
+def tokenize_and_remove_stopwords(text):
+    text = clean_text(text)
+    tokens = text.split()
+    tokens = [w for w in tokens if w not in stopwords]
+    return " ".join(tokens)
