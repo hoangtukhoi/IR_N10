@@ -7,10 +7,8 @@ from nltk.corpus import stopwords
 
 nltk.download('stopwords', quiet=True)
 
-class BM25:
-    def __init__(self, corpus_raw, k1=1.5, b=0.75, language='english'):
-        self.k1 = k1
-        self.b = b
+class TFIDF:
+    def __init__(self, corpus_raw, language='english'):
         self.stemmer = PorterStemmer()
         self.stop_words = set(stopwords.words(language))
         
@@ -21,26 +19,22 @@ class BM25:
         if self.corpus_size == 0:
             raise ValueError("Corpus rỗng")
         
-        self.avgdl = sum(len(doc) for doc in self.corpus) / self.corpus_size
-        
-        # Build inverted index
+        # Build document frequencies and inverted index
         self.df = defaultdict(int)
-        self.doc_freqs = []
         self.inverted_index = defaultdict(list)
         
         for i, doc in enumerate(self.corpus):
             freq = Counter(doc)
-            self.doc_freqs.append(freq)
+            # tf: term count in the document
             for word, count in freq.items():
                 self.df[word] += 1
                 self.inverted_index[word].append((i, count))
-        
-        # IDF
-        self.idf = {
-            word: math.log(((self.corpus_size - freq + 0.5) / (freq + 0.5)) + 1)
-            for word, freq in self.df.items()
-        }
-    
+                
+        # Calculate IDF
+        self.idf = {}
+        for word, df in self.df.items():
+            self.idf[word] = math.log((1 + self.corpus_size) / (1 + df)) + 1
+
     def _preprocess(self, text):
         text = str(text).lower()
         text = re.sub(r'[^\w\s]', '', text)
@@ -49,20 +43,21 @@ class BM25:
         return [self.stemmer.stem(w) for w in tokens]
     
     def get_scores(self, query_raw):
-        query = self._preprocess(query_raw)  # preprocess query cùng pipeline
+        query = self._preprocess(query_raw)
         scores = defaultdict(float)
         
         for q in query:
             if q not in self.inverted_index:
                 continue
             idf = self.idf[q]
+            # TF-IDF of the query term: let's assume query term format count is 1 for simplicity
             for doc_id, f in self.inverted_index[q]:
-                doc_len = len(self.corpus[doc_id])
-                tf_norm = (f * (self.k1 + 1)) / (
-                    f + self.k1 * (1 - self.b + self.b * (doc_len / self.avgdl))
-                )
-                scores[doc_id] += idf * tf_norm
-        
+                # tf is just the count of term in doc. Can also normalize by doc length.
+                # let's use standard term frequency
+                tf = f 
+                scores[doc_id] += tf * idf
+                
+        # Normalize the scores or keep them as raw dot products. Raw dot products are fine for ranking.
         return [scores.get(i, 0.0) for i in range(self.corpus_size)]
     
     def get_top_n(self, query_raw, n=10):
