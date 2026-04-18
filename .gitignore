@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+
+# Datsets (Optional: keep if you want to push to GitHub)
+# data/
+
+# Search Index & Checkpoints
+algorithm/hybrid_search_khoa/index/
+*.pkl
+*.bin
+
+# Steamlit
+.streamlit/
