@@ -1,55 +1,52 @@
-# Movie Retrieval Engine (IR_N10)
+# Công cụ Tìm kiếm Phim (Movie Retrieval Engine - IR_N10)
 
-A high-performance Movie Retrieval Engine built with Streamlit, implementing hybrid search algorithms (BM25 + TF-IDF) and a modern, vibrant UI.
+Một công cụ tìm kiếm phim hiệu năng cao được xây dựng bằng Streamlit, triển khai các thuật toán tìm kiếm lai (Hybrid Search: BM25 + TF-IDF) và giao diện người dùng hiện đại, sinh động.
 
-## 🌟 Features
-- **Hybrid Search**: Combines BM25 and TF-IDF for more accurate information retrieval.
-- **Pseudo-Relevance Feedback (PRF)**: Enhances search results based on the top relevant documents.
-- **Modern UI**: Responsive design with Aurora gradients and Glassmorphism aesthetics.
-- **Smart Filtering**: Filter movies by Genre, Year, and Rating.
-- **Interactive Details**: View full movie information including cast, director, budget, and revenue.
-- **Spell Checker**: Suggests corrections for misspelled search queries.
+## 🌟 Tính năng nổi bật
+- **Tìm kiếm Lai (Hybrid Search)**: Kết hợp BM25 và TF-IDF để mang lại kết quả tìm kiếm chính xác hơn.
+- **Phản hồi Giả liên quan (PRF)**: Cải thiện kết quả dựa trên các tài liệu liên quan hàng đầu.
+- **Giao diện Hiện đại**: Thiết kế đáp ứng (responsive) với hiệu ứng Aurora và Glassmorphism (hiệu ứng kính mờ).
+- **Bộ lọc Thông minh**: Lọc phim theo Thể loại, Năm phát hành và Điểm đánh giá.
+- **Chi tiết Tương tác**: Xem thông tin chi tiết về phim bao gồm diễn viên, đạo diễn, ngân sách và doanh thu.
+- **Kiểm tra Chính tả**: Gợi ý sửa lỗi cho các truy vấn tìm kiếm bị viết sai.
 
-## 🚀 Getting Started
+## 🚀 Bắt đầu
 
-### Prerequisites
+### Yêu cầu hệ thống
 - Python 3.8+
-- [Pandas](https://pandas.pydata.org/)
-- [Streamlit](https://streamlit.io/)
-- [NLTK](https://www.nltk.org/)
-- [Scikit-learn](https://scikit-learn.org/)
+- Các thư viện: `pandas`, `streamlit`, `nltk`, `scikit-learn`
 
-### Installation
-1. Clone the repository:
+### Cài đặt
+1. Clone repository:
    ```bash
    git clone https://github.com/hoangtukhoi/IR_N10.git
    cd IR_N10
    ```
-2. Install dependencies:
+2. Cài đặt các thư viện cần thiết:
    ```bash
    pip install -r requirements.txt
    ```
-   *(Note: Ensure you have the TMDB 5000 dataset files in the `data/` directory)*
+   *(Lưu ý: Đảm bảo bạn có các file dữ liệu TMDB 5000 trong thư mục `data/`)*
 
-### Running the App
+### Chạy ứng dụng
 ```bash
 streamlit run app.py
 ```
 
-## 🛠 Technology Stack
+## 🛠 Công nghệ sử dụng
 - **Frontend**: Streamlit, Custom CSS (Glassmorphism)
-- **Algorithms**: BM25, TF-IDF, Hybrid Search, PRF
-- **Data Handling**: Pandas, JSON
-- **Natural Language Processing**: NLTK (Tokenization, Preprocessing)
+- **Thuật toán**: BM25, TF-IDF, Hybrid Search, PRF
+- **Xử lý dữ liệu**: Pandas, JSON
+- **Xử lý ngôn ngữ tự nhiên**: NLTK (Tokenization, Preprocessing)
 
-## 📁 Repository Structure
-- `app.py`: Main Streamlit application entry point.
-- `algorithm/`: Implementation of search algorithms (BM25, TF-IDF, Hybrid).
-- `frontend/`: UI components and custom styling.
-- `data/`: Dataset storage (CSV files).
+## 📁 Cấu trúc thư mục
+- `app.py`: File chính khởi chạy ứng dụng Streamlit.
+- `algorithm/`: Triển khai các thuật toán tìm kiếm (BM25, TF-IDF, Hybrid).
+- `frontend/`: Các thành phần giao diện và file CSS tùy chỉnh.
+- `data/`: Nơi lưu trữ bộ dữ liệu (file CSV).
 
-## 👥 Contributors
-- **IR_N10 Team**
+## 👥 Đội ngũ thực hiện
+- **Nhóm IR_N10**
 
 ---
-*Built with ❤️ for the Information Retrieval course.*
+*Dự án được thực hiện cho môn học Tìm kiếm thông tin (Information Retrieval).*
