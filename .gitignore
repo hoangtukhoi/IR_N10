@@ -1,0 +1,4 @@
+__pycache__/
+algorithm/hybrid_search_khoa/index/
+*.pkl
+*.bin

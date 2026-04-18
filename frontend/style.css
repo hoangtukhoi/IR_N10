@@ -1,0 +1,322 @@
+/* CSS Cho Hệ Thống IR - Vibrant Modern Theme */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap');
+
+:root {
+    --primary: #6366f1;
+    --primary-light: #818cf8;
+    --secondary: #ec4899;
+    --accent: #f59e0b;
+    --bg-gradient: radial-gradient(at 0% 0%, rgba(99, 102, 241, 0.1) 0px, transparent 50%),
+        radial-gradient(at 50% 0%, rgba(236, 72, 153, 0.1) 0px, transparent 50%),
+        radial-gradient(at 100% 0%, rgba(245, 158, 11, 0.1) 0px, transparent 50%);
+    --surface: rgba(255, 255, 255, 0.8);
+    --border: rgba(226, 232, 240, 0.8);
+}
+
+.stApp {
+    background: #f8fafc;
+    background-image: var(--bg-gradient);
+    background-attachment: fixed;
+    color: #1e293b;
+    font-family: 'Outfit', 'Inter', -apple-system, sans-serif;
+}
+
+/* Header Styling */
+.main-title {
+    background: linear-gradient(135deg, #6366f1 0%, #ec4899 50%, #f59e0b 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+
+/* Thanh tìm kiếm & Input */
+div[data-testid="stTextInput"]>div>div>input {
+    background: var(--surface);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--border);
+    color: #1e293b;
+    border-radius: 16px;
+    padding: 18px 24px;
+    font-size: 1.1rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+div[data-testid="stTextInput"]>div>div>input:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.1), 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    background: #ffffff;
+    transform: translateY(-1px);
+}
+
+/* Movie Card (Dạng Đứng - Premium Modern) */
+.movie-card {
+    background: var(--surface);
+    backdrop-filter: blur(8px);
+    border: 1px solid var(--border);
+    border-radius: 24px;
+    padding: 0;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+    color: #1e293b;
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.08);
+}
+
+.movie-card:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 20px 40px -15px rgba(99, 102, 241, 0.2);
+    border-color: var(--primary-light);
+}
+
+.movie-poster {
+    width: 100%;
+    height: 320px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(45deg, #f1f5f9, #e2e8f0);
+}
+
+.poster-letter {
+    position: relative;
+    z-index: 2;
+    background: linear-gradient(135deg, #6366f1, #ec4899);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 100px;
+    font-weight: 800;
+    opacity: 0.8;
+}
+
+.movie-info {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: auto;
+    min-height: 240px;
+}
+
+.movie-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    color: #0f172a;
+    line-height: 1.2;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.movie-badges {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+}
+
+.badge {
+    padding: 4px 10px;
+    border-radius: 8px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.badge-rank {
+    background: linear-gradient(135deg, #6366f1, #4f46e5);
+    color: #fff;
+}
+
+.badge-star {
+    background: rgba(245, 158, 11, 0.1);
+    color: #d97706;
+    border: 1px solid rgba(245, 158, 11, 0.2);
+}
+
+.badge-genre {
+    background: rgba(99, 102, 241, 0.05);
+    color: #6366f1;
+    border: 1px solid rgba(99, 102, 241, 0.1);
+}
+
+.movie-overview {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #475569;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+/* Filter Bar Styling */
+.filter-container {
+    background: var(--surface);
+    backdrop-filter: blur(12px);
+    border-radius: 24px;
+    padding: 24px;
+    margin: 20px 0 40px 0;
+    border: 1px solid var(--border);
+    box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* Nút bấm */
+div.stButton>button {
+    border-radius: 12px;
+    font-weight: 600;
+    padding: 10px 24px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    background: #ffffff;
+    color: #4b5563;
+    border: 1px solid var(--border);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+div.stButton>button:hover {
+    border-color: var(--primary);
+    color: var(--primary);
+    background: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(99, 102, 241, 0.15);
+}
+
+div.stButton>button:active {
+    transform: translateY(0);
+}
+
+/* Primary Button Override (optional search button color) */
+div.stButton>button:has(.st-emotion-cache-1vt761t) {
+    background: var(--primary);
+    color: white;
+}
+
+/* Expander/Accordions */
+.stExpander {
+    background: var(--surface) !important;
+    backdrop-filter: blur(10px);
+    border-radius: 16px !important;
+    border: 1px solid var(--border) !important;
+}
+
+/* Sửa lỗi màu nền đen cho các inputs (Selectbox, MultiSelect, NumberInput, etc.) */
+div[data-testid="stSelectbox"]>div,
+div[data-testid="stMultiSelect"]>div,
+div[data-testid="stNumberInput"]>div>div>input {
+    background-color: var(--surface) !important;
+    border-radius: 12px !important;
+}
+
+/* Tinh chỉnh riêng cho Slider để nó gọn gàng và ngang bằng với các ô khác */
+div[data-testid="stSlider"] {
+    background-color: #ffffff !important;
+    border-radius: 12px !important;
+    padding: 2px 12px 10px 12px !important;
+    margin-top: 2px !important;
+    border: 1px solid var(--border) !important;
+}
+
+/* Đặt màu chữ cho các giá trị trên Slider (Cả marker ở dưới và giá trị đang chọn) sang màu đỏ */
+div[data-testid="stMarker"], 
+div[data-testid="stSlider"] [data-baseweb="slider"] div {
+    color: #ff4b4b !important;
+    font-weight: 700 !important;
+}
+
+/* Chi tiết hơn cho từng loại input */
+div[data-testid="stSelectbox"] [data-baseweb="select"]>div,
+div[data-testid="stMultiSelect"] [data-baseweb="select"]>div {
+    background-color: #ffffff !important;
+    border-radius: 12px !important;
+    border: 1px solid var(--border) !important;
+    color: #1e293b !important;
+}
+
+/* Màu chữ cho placeholder và text trong select */
+div[data-baseweb="select"] * {
+    color: #1e293b !important;
+}
+
+/* Number Input */
+div[data-testid="stNumberInput"] input {
+    background-color: #ffffff !important;
+    color: #1e293b !important;
+    border: 1px solid var(--border) !important;
+}
+
+/* Slider Track & Thumb */
+div[data-testid="stSlider"] [data-testid="stMarker"] {
+    color: #1e293b !important;
+}
+
+div[data-testid="stSlider"] [data-baseweb="slider"]>div {
+    background-color: #e2e8f0 !important;
+}
+
+div[data-testid="stSlider"] [data-baseweb="slider"] div[role="slider"] {
+    background-color: var(--primary) !important;
+    border: 2px solid white !important;
+}
+
+/* Đặt màu chữ cho các label (Algorithm, Genres, Year, etc.) sang màu đen */
+[data-testid="stWidgetLabel"] p, 
+[data-testid="stWidgetLabel"] {
+    color: #000000 !important;
+    font-weight: 600 !important;
+}
+
+/* Đặt màu chữ cho nội dung bên trong Selectbox và MultiSelect */
+div[data-baseweb="select"] div,
+div[data-baseweb="select"] span {
+    color: #000000 !important;
+}
+
+/* Đặt màu chữ cho các giá trị trên Slider (Year) được quản lý ở phần trên (màu đỏ) */
+
+/* Đặt màu chữ cho giá trị trong Number Input */
+div[data-testid="stNumberInput"] input {
+    color: #000000 !important;
+    font-weight: 600 !important;
+}
+
+/* Đặt màu chữ cho các thông báo (Warning/Did you mean) sang màu đen */
+div[data-testid="stNotification"], 
+div[data-testid="stAlert"],
+div[data-testid="stNotification"] *,
+div[data-testid="stAlert"] * {
+    color: #000000 !important;
+}
+
+/* Details Page Refinement */
+.detail-poster {
+    background: linear-gradient(135deg, #f1f5f9, #e2e8f0);
+    box-shadow: 0 20px 50px -10px rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+}
