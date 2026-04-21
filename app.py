@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 from algorithm.bm25_algorithm import BM25
 from algorithm.tfidf_algorithm import TFIDF
+from algorithm.TFIDFCosine import TFIDFCosine
 from algorithm.hybrid_algorithm import HybridSearch
 from algorithm.spell_checker import SpellChecker
 
@@ -45,14 +46,15 @@ def load_system():
     tokenized_corpus = df['overview'].tolist()
     bm25 = BM25(tokenized_corpus)
     tfidf = TFIDF(tokenized_corpus)
+    tfidf_cosine = TFIDFCosine(tokenized_corpus)
     hybrid = HybridSearch(bm25, tfidf)
     
     corpus_texts = df['overview'].tolist() + df['name'].tolist()
     spell_checker = SpellChecker(corpus_texts)
     
-    return df, bm25, tfidf, hybrid, spell_checker
+    return df, bm25, tfidf, tfidf_cosine, hybrid, spell_checker
 
-df, bm25, tfidf, hybrid, spell_checker = load_system()
+df, bm25, tfidf, tfidf_cosine, hybrid, spell_checker = load_system()
 
 # --- QUẢN LÝ SESSION STATE ---
 if 'selected_movie_id' not in st.session_state: st.session_state.selected_movie_id = None
@@ -94,7 +96,7 @@ else:
     st.markdown('<div class="filter-container">', unsafe_allow_html=True)
     fcol1, fcol2, fcol3, fcol4, fcol5 = st.columns([1.5, 2, 1.5, 1, 1])
     
-    algo_choice = fcol1.selectbox("Algorithm:", ("BM25", "TF-IDF", "Hybrid (BM25 + TF-IDF)", "Hybrid + PRF"))
+    algo_choice = fcol1.selectbox("Algorithm:", ("BM25", "TF-IDF", "TF-IDF Cosine", "Hybrid (BM25 + TF-IDF)", "Hybrid + PRF"))
     all_genres = set(g for sublist in df['genre_list'] for g in sublist)
     selected_genres = fcol2.multiselect("Genres:", sorted(list(all_genres)))
     min_year, max_year = fcol3.slider("Year:", 1920, 2024, (1990, 2024))
@@ -138,6 +140,7 @@ else:
 
         if algo_choice == "BM25": scores = bm25.get_scores(search_query)
         elif algo_choice == "TF-IDF": scores = tfidf.get_scores(search_query)
+        elif algo_choice == "TF-IDF Cosine": scores = tfidf_cosine.get_scores(search_query)
         elif algo_choice == "Hybrid (BM25 + TF-IDF)": scores = hybrid.get_scores(search_query)
         else: 
             scores = hybrid.get_scores_with_prf(search_query, prf_n, prf_k)
