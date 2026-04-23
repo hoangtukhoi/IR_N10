@@ -1,0 +1,1001 @@
+query_id,difficulty,query,expected_movie_title
+1,Easy,marine dispatched to the moon pandora,Avatar
+2,Easy,bitten by a radioactive spider,Spider-Man
+3,Easy,thief who enters the dreams of others,Inception
+4,Easy,clone dinosaurs on an island theme park,Jurassic Park
+5,Easy,superheroes team up to stop loki,The Avengers
+6,Easy,cyborg sent back in time to kill sarah,The Terminator
+7,Easy,billionaire creates an iron armored suit,Iron Man
+8,Easy,boy goes to hogwarts school of witchcraft,Harry Potter and the Philosopher's Stone
+9,Easy,hobbit taking a magic ring to mordor,The Lord of the Rings: The Fellowship of the Ring
+10,Easy,fbi agent clarice starling meets hannibal lecter,The Silence of the Lambs
+11,Easy,jack and rose on a sinking ship,Titanic
+12,Easy,hacker neo discovers the matrix,The Matrix
+13,Easy,wooden puppet wants to be a real boy,Pinocchio
+14,Easy,toys come alive when humans are not around,Toy Story
+15,Easy,clownfish marlin looks for his son nemo,Finding Nemo
+16,Easy,bruce wayne becomes batman to save gotham,Batman Begins
+17,Easy,lion cub simba exiled from pride rock,The Lion King
+18,Easy,captain jack sparrow black pearl,Pirates of the Caribbean: The Curse of the Black Pearl
+19,Easy,ogre and a talking donkey rescue princess fiona,Shrek
+20,Easy,archaeologist indiana jones finds the ark,Raiders of the Lost Ark
+21,Easy,katniss everdeen volunteers as tribute,The Hunger Games
+22,Easy,astronaut mark watney stranded on mars,The Martian
+23,Easy,team of explorers travel through a wormhole,Interstellar
+24,Easy,peter parker fights the green goblin,Spider-Man
+25,Easy,vampire edward cullen and bella swan,Twilight
+26,Easy,james bond fights terrorist le chiffre,Casino Royale
+27,Easy,gladiator maximus gets revenge for his family,Gladiator
+28,Easy,mutant wolverine joins the x-men,X-Men
+29,Easy,doc brown builds a delorean time machine,Back to the Future
+30,Easy,panda named po learns kung fu,Kung Fu Panda
+31,Easy,ethan hunt does impossible spy missions,Mission: Impossible
+32,Easy,neo fights agent smith in a computer program,The Matrix
+33,Easy,jedi luke skywalker fights darth vader,Star Wars
+34,Easy,t-rex escapes and attacks visitors,Jurassic Park
+35,Easy,aliens attack earth on july 4th,Independence Day
+36,Easy,an ogre swamp is invaded by fairy tale creatures,Shrek
+37,Easy,andy dufresne escapes from shawshank prison,The Shawshank Redemption
+38,Easy,forrest gump runs across america,Forrest Gump
+39,Easy,orphan bruce wayne trains with the league of shadows,Batman Begins
+40,Easy,tony stark builds a reactor in a cave,Iron Man
+41,Medium,ship hits iceberg in the freezing ocean,Titanic
+42,Medium,father fish swims across the ocean to find his kid,Finding Nemo
+43,Medium,programmer realizes his world is a simulation,The Matrix
+44,Medium,orphan boy discovers he has magical powers,Harry Potter and the Philosopher's Stone
+45,Medium,vigilante dressed as a bat fights a criminal clown,The Dark Knight
+46,Medium,young animal prince must take back his kingdom,The Lion King
+47,Medium,cowboy doll gets jealous of a space ranger,Toy Story
+48,Medium,short creature carries a dangerous artifact to a volcano,The Lord of the Rings: The Fellowship of the Ring
+49,Medium,green monster goes on a quest with a loud animal,Shrek
+50,Medium,rich guy uses his money to build a flying weapon suit,Iron Man
+51,Medium,guy gets left behind on a red planet and grows potatoes,The Martian
+52,Medium,people go to space to find a new home for humanity,Interstellar
+53,Medium,group of special people with powers save the city,The Avengers
+54,Medium,students forced to fight to the death on television,The Hunger Games
+55,Medium,guy goes back to the past and meets his young parents,Back to the Future
+56,Medium,robot assassin from the future hunts down a mother,The Terminator
+57,Medium,thieves steal information from people while they sleep,Inception
+58,Medium,scientists bring back extinct giant reptiles,Jurassic Park
+59,Medium,guy wrongly put in jail tunnels his way out,The Shawshank Redemption
+60,Medium,slow man accidentally becomes part of major historical events,Forrest Gump
+61,Medium,girl falls in love with a guy who drinks blood,Twilight
+62,Medium,spy plays poker to stop a bad guy from getting money,Casino Royale
+63,Medium,roman soldier becomes a slave and fights in the arena,Gladiator
+64,Medium,fat bear learns martial arts to defeat a snow leopard,Kung Fu Panda
+65,Medium,secret agent breaks into high security places,Mission: Impossible
+66,Medium,guy with a whip explores ancient ruins for treasure,Raiders of the Lost Ark
+67,Medium,pirate captain tries to get his stolen ship back,Pirates of the Caribbean: The Curse of the Black Pearl
+68,Medium,boy made of wood lies and his nose grows,Pinocchio
+69,Medium,space soldier sent to live with blue aliens,Avatar
+70,Medium,kid gets superpower from an insect bite,Spider-Man
+71,Medium,a man with claws joins a school for gifted youngsters,X-Men
+72,Medium,farm boy learns the force and fights an empire,Star Wars
+73,Medium,huge alien ships blow up the white house,Independence Day
+74,Medium,cop in a building fights terrorists during christmas,Die Hard
+75,Medium,a man talks to a volleyball on a deserted island,Cast Away
+76,Medium,a boxer gets a shot at the heavyweight championship,Rocky
+77,Medium,dinosaurs run wild in a theme park,Jurassic Park
+78,Medium,a rat controls a chef by pulling his hair,Ratatouille
+79,Medium,monsters scare children to generate power,Monsters, Inc.
+80,Medium,old man attaches helium balloons to his house,Up
+81,Hard,blue pocahontas in space with giant trees,Avatar
+82,Hard,nerd gets bit by bug and shoots webs,Spider-Man
+83,Hard,spinning top dream within a dream,Inception
+84,Hard,we need a bigger boat to catch this fish,Jaws
+85,Hard,red pill blue pill dodge bullets,The Matrix
+86,Hard,run run box of chocolates bus stop,Forrest Gump
+87,Hard,first rule is you do not talk about it soap,Fight Club
+88,Hard,I am your father missing hand,Star Wars: Episode V - The Empire Strikes Back
+89,Hard,old man flies house with fat kid and talking dog,Up
+90,Hard,rat cooks fancy food in paris,Ratatouille
+91,Hard,doors lead to children bedrooms for screams,Monsters, Inc.
+92,Hard,wilson the volleyball lost at sea,Cast Away
+93,Hard,christmas party ruined by terrorists barefoot cop,Die Hard
+94,Hard,punching meat in philadelphia steps,Rocky
+95,Hard,math genius works as a janitor at harvard,Good Will Hunting
+96,Hard,guy forgets everything everyday polaroid pictures,Memento
+97,Hard,what is in the box seven deadly sins,Se7en
+98,Hard,detective sees dead people ghost kid,The Sixth Sense
+99,Hard,fava beans and a nice chianti cannibal,The Silence of the Lambs
+100,Hard,cars drive fast family corona beer,The Fast and the Furious
+101,Hard,magical nanny with a flying umbrella,Mary Poppins
+102,Hard,yellow minions serve a bald villain,Despicable Me
+103,Hard,emotions control a little girl from a headquarters,Inside Out
+104,Hard,robots turn into cars and fight,Transformers
+105,Hard,guy in red suit breaks the fourth wall,Deadpool
+106,Hard,bald guy in wheelchair runs a school for weird kids,X-Men
+107,Hard,a ring makes you invisible but corrupts you,The Lord of the Rings: The Fellowship of the Ring
+108,Hard,guy is stuck in the same day over and over groundhog,Groundhog Day
+109,Hard,two guys erase memories to forget each other,Eternal Sunshine of the Spotless Mind
+110,Hard,people plug their hair into animals to ride them,Avatar
+111,Hard,a man ages backwards like a clock,The Curious Case of Benjamin Button
+112,Hard,don't make him angry big green guy,The Incredible Hulk
+113,Hard,rich orphan dresses in black and fights crime,Batman
+114,Hard,cop is transferred to a sleepy village with murders,Hot Fuzz
+115,Hard,zombies attack winchester pub,Shaun of the Dead
+116,Hard,aliens want our water fake friendly,Mars Attacks!
+117,Hard,guy discovers his whole life is a tv show,The Truman Show
+118,Hard,giant ape climbs the empire state building,King Kong
+119,Hard,a shiny robot from the future wants John Connor,Terminator 2: Judgment Day
+120,Hard,why so serious clown hospital explosion,The Dark Knight
+121,Easy,green alien superhero with a power ring,Green Lantern
+122,Easy,a young boy finds a giant friendly robot from space,The Iron Giant
+123,Easy,special agent james bond skyfall,Skyfall
+124,Easy,a hobbit named frodo baggins,The Lord of the Rings: The Return of the King
+125,Easy,peter parker fights doctor octopus,Spider-Man 2
+126,Easy,a young wizard fights voldemort in the goblet of fire,Harry Potter and the Goblet of Fire
+127,Easy,superhero captain america fights the winter soldier,Captain America: The Winter Soldier
+128,Easy,alien symbiote bonds with peter parker then eddie brock,Spider-Man 3
+129,Easy,a police officer john mcclane trapped in a building,Die Hard
+130,Easy,woody and buzz lightyear rescue jessie,Toy Story 2
+131,Easy,an orphaned boy raised by gorillas in the jungle,Tarzan
+132,Easy,the titanic sinks after hitting an iceberg,Titanic
+133,Easy,archaeologist indiana jones and the temple of doom,Indiana Jones and the Temple of Doom
+134,Easy,bruce wayne fights bane in gotham city,The Dark Knight Rises
+135,Easy,a giant gorilla climbs the empire state building,King Kong
+136,Easy,alice falls down a rabbit hole into wonderland,Alice in Wonderland
+137,Easy,a young mermaid ariel wants to be human,The Little Mermaid
+138,Easy,james bond faces off against villain silva,Skyfall
+139,Easy,the avengers fight an artificial intelligence named ultron,Avengers: Age of Ultron
+140,Easy,neo and trinity fight the machines to save zion,The Matrix Revolutions
+141,Easy,a clown fish named marlin travels to sydney,Finding Nemo
+142,Easy,a cyborg assassin tries to protect john connor,Terminator 2: Judgment Day
+143,Easy,humans fight giant monsters using massive mechs called jaegers,Pacific Rim
+144,Easy,a bald hitman with a barcode on the back of his head,Hitman
+145,Easy,dom cobb steals secrets from people dreams,Inception
+146,Easy,a man named forrest gump meets presidents,Forrest Gump
+147,Easy,a team of mutant superheroes led by professor x,X-Men
+148,Easy,bilbo baggins goes on an adventure with dwarves to a mountain,The Hobbit: An Unexpected Journey
+149,Easy,rocky balboa fights apollo creed in a boxing match,Rocky
+150,Easy,max rockatansky drives through a post apocalyptic wasteland,Mad Max: Fury Road
+151,Easy,a yellow sponge works at the krusty krab,The SpongeBob SquarePants Movie
+152,Easy,alien predators hunt humans for sport in the jungle,Predator
+153,Easy,clark kent becomes superman to save metropolis,Man of Steel
+154,Easy,detective sherlock holmes and dr watson solve a mystery,Sherlock Holmes
+155,Easy,a boy named charlie wins a golden ticket to a chocolate factory,Charlie and the Chocolate Factory
+156,Easy,belle is imprisoned by a beast in his castle,Beauty and the Beast
+157,Easy,a panda named po becomes the dragon warrior,Kung Fu Panda
+158,Easy,vampires and lycans fight a secret war,Underworld
+159,Easy,tony stark creates the iron man armor,Iron Man
+160,Easy,gru adopts three girls and steals the moon,Despicable Me
+161,Medium,a giant lizard monster destroys tokyo,Godzilla
+162,Medium,an amnesiac spy tries to discover his true identity,The Bourne Identity
+163,Medium,cops chase a serial killer who uses the seven deadly sins,Se7en
+164,Medium,animals break out of the new york zoo to go to wild africa,Madagascar
+165,Medium,astronauts travel through a black hole to find a habitable exoplanet,Interstellar
+166,Medium,a lawyer defends a black man falsely accused in the deep south,To Kill a Mockingbird
+167,Medium,a roman general becomes a gladiator to avenge his murdered family,Gladiator
+168,Medium,a fast talking donkey and a green ogre save a princess,Shrek
+169,Medium,a young girl is spirited away to a magical bathhouse for spirits,Spirited Away
+170,Medium,soldiers in world war 2 try to save a single private,Saving Private Ryan
+171,Medium,a theme park with cloned dinosaurs suffers a security breakdown,Jurassic Park
+172,Medium,a hitman protects a little girl whose family was murdered,Léon: The Professional
+173,Medium,an fbi trainee hunts a serial killer with the help of a cannibal,The Silence of the Lambs
+174,Medium,an autistic man with a high iq runs across the country,Forrest Gump
+175,Medium,a poor boy finds a magic lamp with a genie inside,Aladdin
+176,Medium,a journalist investigates the meaning of a dying billionaire last word,Citizen Kane
+177,Medium,people are forced to fight to the death in an arena for television,The Hunger Games
+178,Medium,an undercover cop infiltrates a street racing gang to catch thieves,The Fast and the Furious
+179,Medium,a math genius works as a janitor and gets therapy,Good Will Hunting
+180,Medium,toys come to life and worry about being replaced by a spaceman,Toy Story
+181,Medium,an old man and a boy scout fly a house using helium balloons,Up
+182,Medium,humans remotely control biological bodies on a jungle moon,Avatar
+183,Medium,a computer hacker discovers reality is a simulation run by machines,The Matrix
+184,Medium,criminals are hired to perform a heist but things go terribly wrong,Reservoir Dogs
+185,Medium,a mobster family patriarch transfers control to his reluctant son,The Godfather
+186,Medium,an insomniac office worker starts an underground fighting club,Fight Club
+187,Medium,a man is trapped in a dream within a dream within a dream,Inception
+188,Medium,a boy who can see dead people helps a child psychologist,The Sixth Sense
+189,Medium,friends go to a cabin in the woods and find an evil book,The Evil Dead
+190,Medium,an fbi agent goes undercover in a beauty pageant,Miss Congeniality
+191,Medium,a team of illusionists rob banks during their magic shows,Now You See Me
+192,Medium,scientists capture ghosts in new york city,Ghostbusters
+193,Medium,a high school student goes back in time and meets his teenage parents,Back to the Future
+194,Medium,a weather man lives the same day over and over again,Groundhog Day
+195,Medium,a robot trash compactor finds a plant and falls in love,WALL·E
+196,Medium,a father disguises himself as a female nanny to see his kids,Mrs. Doubtfire
+197,Medium,a princess runs away and hides with seven dwarfs,Snow White and the Seven Dwarfs
+198,Medium,an aristocrat and a poor artist fall in love on a doomed ship,Titanic
+199,Medium,an alien creature bursts out of a crew member chest in space,Alien
+200,Medium,a teenage girl is possessed by an ancient demon,The Exorcist
+201,Hard,volleyball named wilson keeps a stranded man company,Cast Away
+202,Hard,what is in the box ending scene desert,Se7en
+203,Hard,why so serious clown blows up hospital,The Dark Knight
+204,Hard,i see dead people breathing cold air,The Sixth Sense
+205,Hard,a rat controls a chef by pulling his hair to cook,Ratatouille
+206,Hard,doors lead to children bedrooms to collect their screams,Monsters, Inc.
+207,Hard,blue and red pills bullet time slow motion,The Matrix
+208,Hard,spinning top keeps spinning at the end does it fall,Inception
+209,Hard,bald guy offers a choice of pills to a hacker,The Matrix
+210,Hard,a guy uses polaroid pictures and tattoos to remember who killed his wife,Memento
+211,Hard,a man ages backwards starting as an old baby and dying as an infant,The Curious Case of Benjamin Button
+212,Hard,little emotions inside a girl head try to keep her happy,Inside Out
+213,Hard,yellow pill shaped creatures serve a bald supervillain,Despicable Me
+214,Hard,guy stuck on mars grows potatoes using human waste,The Martian
+215,Hard,zombies attack a pub while friends drink beer,Shaun of the Dead
+216,Hard,an entire life is actually a reality tv show broadcast to the world,The Truman Show
+217,Hard,a guy in a red suit breaks the fourth wall and makes jokes,Deadpool
+218,Hard,the guy with the metal claws smokes cigars and gets angry,X-Men
+219,Hard,a magical nanny arrives with a flying umbrella and a bottomless bag,Mary Poppins
+220,Hard,a guy falls in love with his computer operating system,Her
+221,Hard,a couple erases their memories of each other after a bad breakup,Eternal Sunshine of the Spotless Mind
+222,Hard,a kid defends his house from two burglars during christmas,Home Alone
+223,Hard,a cop is transferred to a perfect village that has a dark secret cult,Hot Fuzz
+224,Hard,soldiers execute a death row inmate who has healing powers,The Green Mile
+225,Hard,a man is wrongly imprisoned and escapes through a sewage pipe in the rain,The Shawshank Redemption
+226,Hard,a giant shark attacks a beach town and they need a bigger boat,Jaws
+227,Hard,a creepy doll comes to life and terrorizes a mother and child,Child's Play
+228,Hard,a man drives a taxi and becomes obsessed with saving a child prostitute,Taxi Driver
+229,Hard,an astronaut goes crazy on a spaceship controlled by a red camera eye,2001: A Space Odyssey
+230,Hard,a crazy writer chases his family with an axe in a snowy hotel,The Shining
+231,Hard,a young girl communicates with aliens through the television static,Poltergeist
+232,Hard,an old man builds a dinosaur park but the power goes out,Jurassic Park
+233,Hard,a magical board game brings a jungle man and animals into the real world,Jumanji
+234,Hard,a kid finds an alien who loves candy and makes bicycles fly,E.T. the Extra-Terrestrial
+235,Hard,an angry green guy smashes tanks and fights the military,The Incredible Hulk
+236,Hard,an obnoxious news anchor gets fired and has to fight a rival news team,Anchorman: The Legend of Ron Burgundy
+237,Hard,a guy drinks a potion and turns into a huge green mask wearing cartoon,The Mask
+238,Hard,a lawyer cannot tell a lie for 24 hours because of his son birthday wish,Liar Liar
+239,Hard,pet animals talk and travel across the country to find their owners,Homeward Bound: The Incredible Journey
+240,Hard,an ice princess accidentally freezes her kingdom and runs away,Frozen
+241,Easy,gandalf the grey wizard,The Lord of the Rings: The Fellowship of the Ring
+242,Easy,michael corleone mafia family,The Godfather
+243,Easy,darth vader death star,Star Wars
+244,Easy,marty mcfly time travel delorean,Back to the Future
+245,Easy,joker bank robbery harvey dent,The Dark Knight
+246,Easy,gollum my precious ring,The Lord of the Rings: The Two Towers
+247,Easy,steve rogers super soldier serum,Captain America: The First Avenger
+248,Easy,thor god of thunder asgard,Thor
+249,Easy,black widow natasha romanoff,The Avengers
+250,Easy,guardians of the galaxy star lord,Guardians of the Galaxy
+251,Easy,wolverine logan adamantium claws,X-Men Origins: Wolverine
+252,Easy,ethan hunt rogue nation syndicate,Mission: Impossible - Rogue Nation
+253,Easy,james bond quantum of solace,Quantum of Solace
+254,Easy,dominic toretto brian o'conner racing,The Fast and the Furious
+255,Easy,katniss everdeen peeta mellark,The Hunger Games: Catching Fire
+256,Easy,bella swan edward cullen werewolf jacob,The Twilight Saga: New Moon
+257,Easy,john wick dog killed revenge,John Wick
+258,Easy,neo trinity morpheus zion,The Matrix Reloaded
+259,Easy,jason bourne amnesia cia assassin,The Bourne Supremacy
+260,Easy,indiana jones holy grail sean connery,Indiana Jones and the Last Crusade
+261,Easy,jurassic world indominus rex,Jurassic World
+262,Easy,shrek donkey fiona dragon,Shrek 2
+263,Easy,toy story buzz lightyear woody,Toy Story 3
+264,Easy,finding dory amnesia fish,Finding Dory
+265,Easy,incredibles superhero family syndrome,The Incredibles
+266,Easy,wall-e eve axiom ship,WALL·E
+267,Easy,monsters university mike sulley,Monsters University
+268,Easy,cars lightning mcqueen route 66,Cars
+269,Easy,ratatouille remy linguini paris,Ratatouille
+270,Easy,up carl russell kevin snipe,Up
+271,Easy,inside out joy sadness riley,Inside Out
+272,Easy,frozen elsa anna olaf snowman,Frozen
+273,Easy,moana demigod maui ocean,Moana
+274,Easy,zootopia judy hopps nick wilde,Zootopia
+275,Easy,big hero 6 baymax hiro,Big Hero 6
+276,Easy,wreck-it ralph video game villain,Wreck-It Ralph
+277,Easy,tangled rapunzel flynn rider hair,Tangled
+278,Easy,brave merida bear scottish,Brave
+279,Easy,aladdin jasmine magic carpet jafar,Aladdin
+280,Easy,lion king scar mufasa hakuna matata,The Lion King
+281,Medium,a green ogre drinks a potion to become handsome,Shrek 2
+282,Medium,superheroes must sign a treaty to be controlled by the government,Captain America: Civil War
+283,Medium,a hitman comes out of retirement after his puppy is killed,John Wick
+284,Medium,a theme park opens with genetically modified giant reptiles,Jurassic World
+285,Medium,a memory loss fish goes looking for her parents,Finding Dory
+286,Medium,a family of superheroes tries to live a normal quiet life,The Incredibles
+287,Medium,a race car gets stuck in a small desert town,Cars
+288,Medium,two monsters go to college to learn how to scare,Monsters University
+289,Medium,a hawaiian girl adopts a blue alien dog experiment,Lilo & Stitch
+290,Medium,a princess with very long blonde hair escapes her tower,Tangled
+291,Medium,a scottish princess accidentally turns her mother into a bear,Brave
+292,Medium,a boy creates a healthcare robot companion after his brother dies,Big Hero 6
+293,Medium,a video game bad guy wants to be a hero,Wreck-It Ralph
+294,Medium,a bunny police officer and a fox solve a mystery,Zootopia
+295,Medium,a polynesian girl sails the ocean to return a mystical heart,Moana
+296,Medium,an old man with white hair creates dinosaurs from mosquito blood,Jurassic Park
+297,Medium,a thief steals a shrinking suit to pull off a heist,Ant-Man
+298,Medium,a doctor destroys his hands in a car crash and learns magic,Doctor Strange
+299,Medium,a king of an advanced african nation fights his cousin,Black Panther
+300,Medium,a guy gets trapped in the quantum realm for years,Ant-Man and the Wasp
+301,Medium,a group of misfits guard the galaxy from a fanatic,Guardians of the Galaxy
+302,Medium,a man with a bow and a spy fight a robot army in a floating city,Avengers: Age of Ultron
+303,Medium,a superhero named iron man fights a guy with electrical whips,Iron Man 2
+304,Medium,a rich guy builds an underground base for his flying suits,Iron Man 3
+305,Medium,a norse god loses his hammer and is forced to fight in a gladiatorial arena,Thor: Ragnarok
+306,Medium,a secret agent must stop a madman from triggering a nuclear war in india,Mission: Impossible - Ghost Protocol
+307,Medium,a spy rides a motorcycle off a cliff to catch a rogue agent,Mission: Impossible - Rogue Nation
+308,Medium,a secret agent fights a man with a metal arm and a satellite weapon,GoldenEye
+309,Medium,a British spy protects his boss M from a former agent seeking revenge,Skyfall
+310,Medium,a guy in a bat suit takes the blame for the crimes of a district attorney,The Dark Knight
+311,Medium,a superhero fights a giant grey monster that destroyed part of the city,Batman v Superman: Dawn of Justice
+312,Medium,an amazon warrior leaves her island to fight in world war 1,Wonder Woman
+313,Medium,a guy named arthur learns he is the king of the underwater city,Aquaman
+314,Medium,a guy gets radiation poisoning and turns into a giant green monster,Hulk
+315,Medium,a blind lawyer fights crime in hell kitchen,Daredevil
+316,Medium,a young wizard discovers his godfather escaped from prison,Harry Potter and the Prisoner of Azkaban
+317,Medium,students participate in a dangerous triwizard tournament,Harry Potter and the Goblet of Fire
+318,Medium,a group of students form a secret army to learn defense magic,Harry Potter and the Order of the Phoenix
+319,Medium,a wizard seeks to destroy magical objects containing a dark lord soul,Harry Potter and the Deathly Hallows: Part 1
+320,Medium,a final battle at a magical school against a dark army,Harry Potter and the Deathly Hallows: Part 2
+321,Hard,a guy breaks a pool cue and throws it to three guys to fight to the death,The Dark Knight
+322,Hard,a kid yells at his mom for bringing him a terrible christmas present,Jingle All the Way
+323,Hard,a group of guys go to vegas for a bachelor party and lose the groom,The Hangover
+324,Hard,a guy gets his chest waxed and screams kelly clarkson,The 40 Year Old Virgin
+325,Hard,a news team fights other news teams with tridents and nets,Anchorman: The Legend of Ron Burgundy
+326,Hard,a man wears a green mask and dances with police officers to a cuban song,The Mask
+327,Hard,a father pretends to be a female housekeeper to see his kids,Mrs. Doubtfire
+328,Hard,two guys pretend to be fbi agents to protect two rich sisters,White Chicks
+329,Hard,a fake news reporter from kazakhstan travels to america,Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan
+330,Hard,a guy buys a yellow camaro that turns out to be an alien robot,Transformers
+331,Hard,a guy gets bitten by a radioactive spider and dances in the street emo style,Spider-Man 3
+332,Hard,a bald guy in a wheelchair reads minds and runs a school,X-Men
+333,Hard,a mutant with metal claws fights a mutant with swords grafted to his arms,X-Men Origins: Wolverine
+334,Hard,a guy uses a red lightsaber with a crossguard,Star Wars: The Force Awakens
+335,Hard,a guy named neo stops bullets in mid air,The Matrix
+336,Hard,a guy in a spacesuit plants potatoes in his own poop,The Martian
+337,Hard,a guy falls into a black hole and ends up behind his daughter bookshelf,Interstellar
+338,Hard,people get sick from a virus spread by a bat and a pig,Contagion
+339,Hard,a crazy bald guy plays a flaming guitar on a giant truck in the desert,Mad Max: Fury Road
+340,Hard,a guy fights his evil exes to date a girl with dyed hair,Scott Pilgrim vs. the World
+341,Hard,a police officer shoots a guy in the foot and gets transferred to the country,Hot Fuzz
+342,Hard,two friends throw records at zombies in their backyard,Shaun of the Dead
+343,Hard,a guy builds a theme park but the fat computer guy turns off the fences,Jurassic Park
+344,Hard,a huge alien ship blows up the white house with a blue laser,Independence Day
+345,Hard,a guy runs through an airport to stop his friend from getting on a plane,Liar Liar
+346,Hard,a detective is partnered with a cartoon rabbit who was framed for murder,Who Framed Roger Rabbit
+347,Hard,a guy finds out he has been dead the whole time and his wife was right,The Sixth Sense
+348,Hard,a guy puts his wife head in a box in the middle of a desert,Se7en
+349,Hard,a cannibal helps an fbi agent catch a guy who makes skin suits,The Silence of the Lambs
+350,Hard,a guy eats a blue pill and wakes up in his bed believing whatever he wants,The Matrix
+351,Hard,a robot with an Austrian accent learns to smile and thumbs up in lava,Terminator 2: Judgment Day
+352,Hard,a group of space marines get wiped out by aliens with acid blood,Aliens
+353,Hard,a hunter is hunted by an invisible alien with dreadlocks in a jungle,Predator
+354,Hard,a guy gets trapped in an office building with european terrorists at christmas,Die Hard
+355,Hard,a boxer runs up the stairs in philadelphia training for a title fight,Rocky
+356,Hard,a mafia boss finds a severed horse head in his bed,The Godfather
+357,Hard,a hitman and his partner talk about foot massages and french burgers,Pulp Fiction
+358,Hard,a crazy drill sergeant yells at a guy in boot camp,Full Metal Jacket
+359,Hard,a guy drops his volleyball best friend into the ocean while crying,Cast Away
+360,Hard,a guy runs across the country because a girl broke his heart,Forrest Gump
+361,Easy,maximus decimus meridius gladiator,Gladiator
+362,Easy,william wallace scottish freedom,Braveheart
+363,Easy,v for vendetta guy fawkes mask,V for Vendetta
+364,Easy,neo morpheus trinity agent smith,The Matrix
+365,Easy,sarah connor kyle reese skynet,The Terminator
+366,Easy,john mcclane nakatomi plaza,Die Hard
+367,Easy,keanu reeves bus bomb speed,Speed
+368,Easy,bryan mills i will find you taken,Taken
+369,Easy,noah allie rain kiss notebook,The Notebook
+370,Easy,jay gatsby daisy buchanan roaring twenties,The Great Gatsby
+371,Easy,jamal malik who wants to be a millionaire,Slumdog Millionaire
+372,Easy,mark zuckerberg facebook harvard,The Social Network
+373,Easy,frank abagnale jr check fraud fbi,Catch Me If You Can
+374,Easy,mulan mushu china hun army,Mulan
+375,Easy,miguel hector land of the dead guitar,Coco
+376,Easy,mr incredible elastigirl dash violet,The Incredibles
+377,Easy,jack torrance overlook hotel redrum,The Shining
+378,Easy,norman bates bates motel shower scene,Psycho
+379,Easy,samara morgan cursed videotape seven days,The Ring
+380,Easy,jigsaw puzzle traps game over,Saw
+381,Easy,ed and lorraine warren ghost hunters,The Conjuring
+382,Easy,chris washington sunken place hypnosis,Get Out
+383,Easy,nina sayers ballet swan lake,Black Swan
+384,Easy,zodiac killer san francisco puzzle ciphers,Zodiac
+385,Easy,charlie swan forks washington cullen,Twilight
+386,Easy,tony montana say hello to my little friend,Scarface
+387,Easy,vincent vega jules winnfield briefcase,Pulp Fiction
+388,Easy,tyler durden project mayhem soap,Fight Club
+389,Easy,luke skywalker princess leia han solo,Star Wars
+390,Easy,frodo baggins samwise gamgee mount doom,The Lord of the Rings: The Return of the King
+391,Easy,harry potter ron weasley hermione granger,Harry Potter and the Philosopher's Stone
+392,Easy,peter parker mary jane watson green goblin,Spider-Man
+393,Easy,bruce wayne alfred pennyworth joker,The Dark Knight
+394,Easy,clark kent lois lane lex luthor,Superman Returns
+395,Easy,tony stark pepper potts obadiah stane,Iron Man
+396,Easy,steve rogers bucky barnes red skull,Captain America: The First Avenger
+397,Easy,thor loki odin jane foster,Thor
+398,Easy,natasha romanoff clint barton shield,The Avengers
+399,Easy,peter quill gamora drax groot rocket,Guardians of the Galaxy
+400,Easy,scott lang hope van dyne pym particles,Ant-Man
+401,Medium,a scottish warrior leads a rebellion against the english king,Braveheart
+402,Medium,a masked vigilante uses terrorist tactics to fight a fascist government,V for Vendetta
+403,Medium,a cop must keep a city bus driving above fifty miles per hour,Speed
+404,Medium,an ex cia agent travels to paris to rescue his kidnapped daughter,Taken
+405,Medium,a poor boy from the slums wins a game show to find his love,Slumdog Millionaire
+406,Medium,a college student builds a social networking site and gets sued,The Social Network
+407,Medium,a teenager successfully performs con arts as a pilot doctor and lawyer,Catch Me If You Can
+408,Medium,a young woman disguises herself as a man to fight in the imperial army,Mulan
+409,Medium,a boy journeys into the land of the dead to find his great grandfather,Coco
+410,Medium,a family of undercover superheroes are forced into action to save the world,The Incredibles
+411,Medium,a family heads to an isolated hotel for the winter where an evil presence drives the father crazy,The Shining
+412,Medium,a phoenix secretary embezzles money and checks into a creepy motel,Psycho
+413,Medium,a journalist investigates a cursed videotape that kills the viewer in seven days,The Ring
+414,Medium,two men wake up in a dirty bathroom chained to pipes with a dead body,Saw
+415,Medium,paranormal investigators help a family terrorized by a dark presence in their farmhouse,The Conjuring
+416,Medium,a young black man visits his white girlfriend estate and uncovers a disturbing secret,Get Out
+417,Medium,a committed dancer struggles to maintain her sanity while competing for the lead role,Black Swan
+418,Medium,investigators and reporters try to track down a serial killer terrorizing the bay area,Zodiac
+419,Medium,a cuban immigrant takes over a drug cartel and succumbs to greed,Scarface
+420,Medium,the lives of two mob hitmen a boxer and a pair of diner bandits intertwine,Pulp Fiction
+421,Medium,an insomniac office worker forms an underground fighting club,Fight Club
+422,Medium,rebel alliance destroys a superweapon space station,Star Wars
+423,Medium,two hobbits struggle to destroy an evil ring while their friends fight a war,The Lord of the Rings: The Return of the King
+424,Medium,a young boy discovers he is a wizard and begins his magical education,Harry Potter and the Philosopher's Stone
+425,Medium,a high school student develops spider like abilities after a bite,Spider-Man
+426,Medium,a vigilante faces a psychotic criminal who wants to plunge the city into anarchy,The Dark Knight
+427,Medium,an alien orphan is sent to earth and becomes its greatest protector,Superman
+428,Medium,a billionaire industrialist creates a weaponized suit of armor,Iron Man
+429,Medium,a frail man is injected with a serum that turns him into a super soldier,Captain America: The First Avenger
+430,Medium,an arrogant god is banished to earth and must learn humility,Thor
+431,Medium,earths mightiest heroes must come together to stop an alien invasion,The Avengers
+432,Medium,a group of intergalactic criminals must pull together to stop a fanatical warrior,Guardians of the Galaxy
+433,Medium,a master thief armed with a suit that can shrink in scale but increase in strength,Ant-Man
+434,Medium,a linguistics professor tries to communicate with alien spacecraft that land on earth,Arrival
+435,Medium,extraterrestrials are forced to live in slum like conditions on earth,District 9
+436,Medium,a computer hacker is abducted into the digital world and forced to participate in gladiatorial games,Tron
+437,Medium,the crew of a commercial spacecraft encounter a deadly lifeform after investigating an unknown transmission,Alien
+438,Medium,a blade runner must pursue and terminate four replicants who stole a ship in space,Blade Runner
+439,Medium,a cab driver unwittingly becomes the central figure in the search for a legendary cosmic weapon,The Fifth Element
+440,Medium,a medical engineer and an astronaut work together to survive after an accident leaves them adrift in space,Gravity
+441,Hard,they may take our lives but they will never take our freedom,Braveheart
+442,Hard,remember remember the fifth of november gunpowder treason and plot,V for Vendetta
+443,Hard,shoot the hostage take him out of the equation,Speed
+444,Hard,i have a very particular set of skills acquired over a very long career,Taken
+445,Hard,it is written destiny game show million rupees,Slumdog Millionaire
+446,Hard,a million dollars isnt cool you know what is cool a billion,The Social Network
+447,Hard,two little mice fell in a bucket of cream pan am pilot,Catch Me If You Can
+448,Hard,dishonor on you dishonor on your cow talking lizard dragon,Mulan
+449,Hard,remember me though i have to say goodbye skeleton guitar,Coco
+450,Hard,no capes fashion designer makes superhero suits,The Incredibles
+451,Hard,here is johnny axe through the door,The Shining
+452,Hard,we all go a little mad sometimes taxidermy birds,Psycho
+453,Hard,girl crawls out of a tv set water well,The Ring
+454,Hard,i want to play a game reverse bear trap,Saw
+455,Hard,clap clap hide and seek basement haunted house,The Conjuring
+456,Hard,stirring tea cup sunken place flash camera,Get Out
+457,Hard,i was perfect pulling a feather out of a shoulder,Black Swan
+458,Hard,creepy letters with symbols sent to a newspaper office,Zodiac
+459,Hard,say hello to my little friend machine gun desk,Scarface
+460,Hard,royale with cheese accidentally shooting a guy in the face in a car,Pulp Fiction
+461,Hard,his name is robert paulson hitting a guy with a bat in a basement,Fight Club
+462,Hard,that is no moon it is a space station trash compactor,Star Wars
+463,Hard,i cannot carry it for you but i can carry you throwing ring in lava,The Lord of the Rings: The Return of the King
+464,Hard,you are a wizard hairy giant man breaks down door,Harry Potter and the Philosopher's Stone
+465,Hard,upside down kiss in the rain saving a tram car,Spider-Man
+466,Hard,magic trick making a pencil disappear half burned face,The Dark Knight
+467,Hard,flying around the earth to turn back time crying over a body,Superman
+468,Hard,building a robot suit in a cave with a box of scraps,Iron Man
+469,Hard,jumping on a fake grenade punching hitler on stage,Captain America: The First Avenger
+470,Hard,another smash coffee mug on the floor blonde guy in diner,Thor
+471,Hard,puny god hulk smashes a green guy on the floor,The Avengers
+472,Hard,dance off bro to save the universe talking raccoon,Guardians of the Galaxy
+473,Hard,thomas the tank engine train set gets crushed by a giant ant,Ant-Man
+474,Hard,writing circles with coffee mug stains learning a non linear language,Arrival
+475,Hard,cat food obsessed aliens turning into an alien slowly,District 9
+476,Hard,throwing glowing frisbees riding light cycles on a grid,Tron
+477,Hard,chestburster scene eating pasta at the table space horror,Alien
+478,Hard,tears in rain monologue origami unicorn,Blade Runner
+479,Hard,multipass orange hair singing alien opera,The Fifth Element
+480,Hard,spinning out of control attached to a robotic arm floating away,Gravity
+481,Easy,indiana jones crystal skull,Indiana Jones and the Kingdom of the Crystal Skull
+482,Easy,harry potter chamber of secrets basilisk,Harry Potter and the Chamber of Secrets
+483,Easy,luke skywalker yoda dagobah,Star Wars: Episode V - The Empire Strikes Back
+484,Easy,deadpool wade wilson chimichangas,Deadpool
+485,Easy,logan professor x laura x-23,Logan
+486,Easy,optimus prime megatron allspark,Transformers
+487,Easy,bilbo baggins smaug dragon,The Hobbit: The Desolation of Smaug
+488,Easy,james bond spectre blofeld,Spectre
+489,Easy,jason bourne treadstone amnesia,The Bourne Identity
+490,Easy,katniss everdeen tracker jackers,The Hunger Games
+491,Easy,bella swan edward cullen volturi,The Twilight Saga: Breaking Dawn - Part 2
+492,Easy,alice in wonderland mad hatter red queen,Alice in Wonderland
+493,Easy,peter pan captain hook neverland,Peter Pan
+494,Easy,winnie the pooh christopher robin,Winnie the Pooh
+495,Easy,mulan mushu captain li shang,Mulan
+496,Easy,tarzan jane porter gorillas,Tarzan
+497,Easy,hercules hades pegasus,Hercules
+498,Easy,aladdin genie magic lamp,Aladdin
+499,Easy,simba nala timon pumbaa,The Lion King
+500,Easy,woody buzz lightyear andy,Toy Story
+501,Easy,nemo dory marlin,Finding Nemo
+502,Easy,mr incredible elastigirl dash,The Incredibles
+503,Easy,sulley mike wazowski boo,Monsters, Inc.
+504,Easy,lightning mcqueen mater radiator springs,Cars
+505,Easy,remy linguini ratatouille,Ratatouille
+506,Easy,wall-e eve axiom,WALL·E
+507,Easy,carl fredricksen russell kevin,Up
+508,Easy,merida queen elinor bear,Brave
+509,Easy,joy sadness anger fear disgust,Inside Out
+510,Easy,judy hopps nick wilde zootopia,Zootopia
+511,Easy,moana maui te fiti,Moana
+512,Easy,elsa anna olaf arendelle,Frozen
+513,Easy,ralph vanellope sugar rush,Wreck-It Ralph
+514,Easy,hiro baymax san fransokyo,Big Hero 6
+515,Easy,rapunzel flynn rider gothel,Tangled
+516,Easy,howl moving castle calcifer,Howl's Moving Castle
+517,Easy,san wolf god ashitaka,Princess Mononoke
+518,Easy,chihiro haku yubaba bathhouse,Spirited Away
+519,Easy,kaneda tetsuo neo tokyo motorcycle,Akira
+520,Easy,motoko kusanagi section 9 cyborg,Ghost in the Shell
+521,Medium,archaeologist looks for alien skull in south america,Indiana Jones and the Kingdom of the Crystal Skull
+522,Medium,young wizard opens a hidden room with a giant snake,Harry Potter and the Chamber of Secrets
+523,Medium,farm boy learns from an old green alien in a swamp,Star Wars: Episode V - The Empire Strikes Back
+524,Medium,mercenary gets cancer and becomes a mutant with a healing factor,Deadpool
+525,Medium,aging mutant protects a young girl with similar powers on a road trip,Logan
+526,Medium,alien robots disguise themselves as vehicles to find a powerful cube,Transformers
+527,Medium,dwarves travel to a mountain to steal treasure from a sleeping dragon,The Hobbit: The Desolation of Smaug
+528,Medium,british spy discovers a global criminal organization led by an old enemy,Spectre
+529,Medium,amnesiac assassin tries to figure out his past while being hunted by the cia,The Bourne Identity
+530,Medium,teenage girl survives a televised death match using a bow and arrow,The Hunger Games
+531,Medium,vampires gather witnesses to prove a child is not an immortal threat,The Twilight Saga: Breaking Dawn - Part 2
+532,Medium,young girl falls down a hole and meets a crazy tea party host,Alice in Wonderland
+533,Medium,boy who never grows up fights a pirate with a missing hand,Peter Pan
+534,Medium,yellow bear who loves honey goes on an adventure with his animal friends,Winnie the Pooh
+535,Medium,girl dresses as a male soldier to save her father from fighting the huns,Mulan
+536,Medium,man raised by apes in the african jungle falls in love with an explorer,Tarzan
+537,Medium,son of zeus must become a true hero to regain his godhood,Hercules
+538,Medium,street rat finds a magical spirit that grants him three wishes,Aladdin
+539,Medium,animal prince runs away from home after his father is killed by his uncle,The Lion King
+540,Medium,cowboy figure feels threatened by a new astronaut action figure,Toy Story
+541,Medium,fish travels across the sea to rescue his son from a dentist office,Finding Nemo
+542,Medium,retired superhero family goes back into action to stop a bitter fan,The Incredibles
+543,Medium,creatures who scare children for energy are terrified when a human toddler enters their world,Monsters, Inc.
+544,Medium,arrogant race vehicle learns a lesson in a forgotten town on route 66,Cars
+545,Medium,rodent who loves cooking controls a human to work in a french restaurant,Ratatouille
+546,Medium,lonely trash compacting robot falls in love with a sleek probe from space,WALL·E
+547,Medium,elderly widower ties balloons to his house to travel to south america,Up
+548,Medium,scottish princess defies tradition and accidentally turns her mom into a wild animal,Brave
+549,Medium,personified emotions try to guide a young girl through a difficult move,Inside Out
+550,Medium,rabbit police officer and a con artist fox uncover a conspiracy,Zootopia
+551,Medium,island girl sails the ocean to find a demigod and restore a magical stone,Moana
+552,Medium,princess with ice powers accidentally plunges her kingdom into eternal winter,Frozen
+553,Medium,arcade game villain leaves his game to prove he can be a good guy,Wreck-It Ralph
+554,Medium,robotics prodigy teams up with an inflatable medical robot to stop a masked villain,Big Hero 6
+555,Medium,princess with magical hair escapes a tower with a wanted thief,Tangled
+556,Medium,young girl is cursed by a witch and finds work in a walking magical house,Howl's Moving Castle
+557,Medium,warrior prince gets cursed and gets involved in a war between forest gods and humans,Princess Mononoke
+558,Medium,ten year old girl gets trapped in a world of spirits and works in a bathhouse,Spirited Away
+559,Medium,biker gang member gains psychic powers and goes on a rampage in a futuristic city,Akira
+560,Medium,female cyborg cop hunts down a mysterious hacker known as the puppet master,Ghost in the Shell
+561,Hard,hiding in a fridge from a nuclear blast aliens in the jungle,Indiana Jones and the Kingdom of the Crystal Skull
+562,Hard,flying car hits a tree fighting a giant snake with a sword,Harry Potter and the Chamber of Secrets
+563,Hard,lifting a spaceship out of a swamp using the mind,Star Wars: Episode V - The Empire Strikes Back
+564,Hard,fourth wall break cutting off own hand superhero landing,Deadpool
+565,Hard,mutant with claws buries his mentor in the woods dying poison,Logan
+566,Hard,alien robots fight in the city using a teenager glasses,Transformers
+567,Hard,playing riddles with a giant lizard sleeping under gold coins,The Hobbit: The Desolation of Smaug
+568,Hard,drilling into a brain chair desert crater base explosion,Spectre
+569,Hard,floating in the sea with bullets in back laser pointer in hip,The Bourne Identity
+570,Hard,volunteering for a sister dropping a nest of poisonous wasps,The Hunger Games
+571,Hard,fake battle vision ripping off heads glowing snow,The Twilight Saga: Breaking Dawn - Part 2
+572,Hard,painting roses red decapitation order tea party madness,Alice in Wonderland
+573,Hard,flying with fairy dust ticking crocodile swallows a clock,Peter Pan
+574,Hard,getting stuck in a rabbit hole eating too much honey,Winnie the Pooh
+575,Hard,cutting off hair with a sword singing about being a man,Mulan
+576,Hard,sliding on mossy branches hand touch teaching monkeys human things,Tarzan
+577,Hard,training montage with a satyr fighting a river monster,Hercules
+578,Hard,rubbing a lamp blue giant singing about magic,Aladdin
+579,Hard,stampede in a gorge eating bugs under a log,The Lion King
+580,Hard,falling with style claw machine little green men,Toy Story
+581,Hard,speaking whale jelly fish forest shark meeting,Finding Nemo
+582,Hard,putting on super suits getting stuck in a cave learning to run fast on water,The Incredibles
+583,Hard,putting a child in a monster costume banishing a snowman,Monsters, Inc.
+584,Hard,paving a road with asphalt tipping over tractors at night,Cars
+585,Hard,hiding under a chef hat tasting cheese and strawberries fireworks,Ratatouille
+586,Hard,flying with a fire extinguisher dancing in space captain getting fat,WALL·E
+587,Hard,pouring coins in a jar sitting on a curb eating chocolate dog in a cone,Up
+588,Hard,shooting an arrow through another arrow eating a cake turning into a bear,Brave
+589,Hard,imaginary friend fades away pushing a red button crying on a bus,Inside Out
+590,Hard,sloths running dmv howling wolves blueberries,Zootopia
+591,Hard,singing crab covered in gold returning a glowing green heart,Moana
+592,Hard,building an ice castle throwing away gloves letting it go,Frozen
+593,Hard,destroying a candy kart diet cola hot springs building a car,Wreck-It Ralph
+594,Hard,upgrading an inflatable nurse into a flying fighter microbots,Big Hero 6
+595,Hard,hitting a guy with a frying pan lighting lanterns on a boat,Tangled
+596,Hard,frying bacon and eggs on a fire demon walking scarecrow,Howl's Moving Castle
+597,Hard,riding a giant white wolf shooting a demon boar infected arm,Princess Mononoke
+598,Hard,parents turn into pigs eating a rice ball crying stealing a golden seal,Spirited Away
+599,Hard,giant flesh mutation laser satellite striking a stadium pill capsule jacket,Akira
+600,Hard,optical camouflage fighting a spider tank pulling off own arms,Ghost in the Shell
+601,Easy,django king schultz bounty hunter,Django Unchained
+602,Easy,jordan belfort wall street stockbroker,The Wolf of Wall Street
+603,Easy,aldo raine hans landa nazis,Inglourious Basterds
+604,Easy,cobb saito ariadne dreams,Inception
+605,Easy,cooper murphy black hole wormhole,Interstellar
+606,Easy,angier borden magicians rivalry,The Prestige
+607,Easy,billy costigan colin sullivan boston mob,The Departed
+608,Easy,paul edgecomb john coffey death row,The Green Mile
+609,Easy,teddy daniels ashecliffe hospital island,Shutter Island
+610,Easy,anton chigurh llewelyn moss hitman,No Country for Old Men
+611,Easy,daniel plainview eli sunday oil,There Will Be Blood
+612,Easy,the bride bill katana revenge,Kill Bill: Vol. 1
+613,Easy,truman burbank reality tv show dome,The Truman Show
+614,Easy,henry hill jimmy conway mafia,Goodfellas
+615,Easy,oskar schindler amon goeth holocaust,Schindler's List
+616,Easy,the dude walter bowling rug,The Big Lebowski
+617,Easy,andy dufresne red shawshank prison,The Shawshank Redemption
+618,Easy,clarice starling hannibal lecter fbi,The Silence of the Lambs
+619,Easy,jack torrance wendy overlook hotel,The Shining
+620,Easy,norman bates marion crane bates motel,Psycho
+621,Easy,don corleone michael mafia family,The Godfather
+622,Easy,travis bickle iris new york taxi,Taxi Driver
+623,Easy,alex delarge droogs ultraviolence,A Clockwork Orange
+624,Easy,rick blaine ilsa lund morocco,Casablanca
+625,Easy,scarlett o'hara rhett butler civil war,Gone with the Wind
+626,Easy,dorothy toto yellow brick road,The Wizard of Oz
+627,Easy,charles foster kane xanadu newspaper,Citizen Kane
+628,Easy,lawrence arabia desert world war,Lawrence of Arabia
+629,Easy,amelie poulain paris gnome,Amélie
+630,Easy,chihiro haku yubaba spirits,Spirited Away
+631,Easy,satsuki mei totoro catbus,My Neighbor Totoro
+632,Easy,ashitaka san wolf gods,Princess Mononoke
+633,Easy,howl sophie calcifer moving castle,Howl's Moving Castle
+634,Easy,motoko kusanagi section 9 puppet master,Ghost in the Shell
+635,Easy,kaneda tetsuo neo tokyo psychic,Akira
+636,Easy,agent j agent k aliens mib,Men in Black
+637,Easy,edward scissorhands peg boggs ice sculpting,Edward Scissorhands
+638,Easy,jack skellington sally halloween town,The Nightmare Before Christmas
+639,Easy,willy wonka charlie bucket golden ticket,Willy Wonka & the Chocolate Factory
+640,Easy,alex murphy detroit cyborg cop,RoboCop
+641,Medium,freed slave teams up with a bounty hunter to save his wife,Django Unchained
+642,Medium,stockbroker rises to wealthy and falls to crime and corruption,The Wolf of Wall Street
+643,Medium,jewish soldiers plot to assassinate nazi leaders in a paris cinema,Inglourious Basterds
+644,Medium,two rival magicians try to sabotage each other illusions,The Prestige
+645,Medium,undercover cop and mole in the police force try to identify each other,The Departed
+646,Medium,death row guards witness supernatural healing events from a giant inmate,The Green Mile
+647,Medium,us marshal investigates a psychiatric facility on a remote island,Shutter Island
+648,Medium,hunter finds drug money and is chased by a psychopathic hitman with a coin,No Country for Old Men
+649,Medium,ruthless silver miner turns into a wealthy oil prospector in california,There Will Be Blood
+650,Medium,assassin wakes from a coma and seeks revenge on her former boss and team,Kill Bill: Vol. 1
+651,Medium,man realizes his entire life is a broadcasted reality television show,The Truman Show
+652,Medium,young man grows up in the mob and works his way up the mafia ranks,Goodfellas
+653,Medium,german industrialist saves his jewish workers during the holocaust,Schindler's List
+654,Medium,los angeles slacker is mistaken for a millionaire and seeks restitution for his ruined rug,The Big Lebowski
+655,Medium,banker wrongfully convicted of murder forms a friendship with an inmate over decades,The Shawshank Redemption
+656,Medium,young fbi cadet confides in a manipulative convicted cannibal killer,The Silence of the Lambs
+657,Medium,family stays in an isolated hotel where the father becomes violently insane,The Shining
+658,Medium,secretary on the run checks into a motel run by a young man under the domination of his mother,Psycho
+659,Medium,aging patriarch of an organized crime dynasty transfers control to his reluctant son,The Godfather
+660,Medium,mentally unstable veteran works as a cab driver at night in new york city,Taxi Driver
+661,Medium,sadistic gang leader is imprisoned and volunteers for an experimental aversion therapy,A Clockwork Orange
+662,Medium,expatriate must choose between his love for a woman and helping her husband escape morocco,Casablanca
+663,Medium,southern belle survives the american civil war and reconstruction periods,Gone with the Wind
+664,Medium,young girl and her dog are swept away by a tornado to a magical land of witches,The Wizard of Oz
+665,Medium,reporters scramble to uncover the meaning of a publishing tycoon dying words,Citizen Kane
+666,Medium,british officer successfully unites and leads diverse arab tribes during world war,Lawrence of Arabia
+667,Medium,innocent and naive girl in paris decides to help those around her find happiness,Amélie
+668,Medium,ten year old girl wanders into a world ruled by gods witches and spirits to save her parents,Spirited Away
+669,Medium,two young sisters move to the country and encounter friendly forest spirits,My Neighbor Totoro
+670,Medium,young warrior gets involved in a struggle between forest gods and humans consuming resources,Princess Mononoke
+671,Medium,young woman cursed with an old body by a spiteful witch meets a mysterious wizard,Howl's Moving Castle
+672,Medium,cyborg federal agent trails a dangerous hacker known as the puppet master,Ghost in the Shell
+673,Medium,secret military project endangers neo tokyo when it turns a biker gang member into a psychopath,Akira
+674,Medium,secret agency monitors extraterrestrial interactions on earth using black suits,Men in Black
+675,Medium,scientist builds an animated human being with sharp blades for hands,Edward Scissorhands
+676,Medium,pumpkin king of halloween town becomes obsessed with taking over christmas,The Nightmare Before Christmas
+677,Medium,poor boy wins the opportunity to tour the most eccentric candy factory in the world,Willy Wonka & the Chocolate Factory
+678,Medium,detroit cop is fatally wounded and returns as a powerful cyborg enforcer,RoboCop
+679,Medium,elite team of special forces goes on a rescue mission in a jungle and is hunted by an alien,Predator
+680,Medium,cyborg is sent back from the future to assassinate the mother of the resistance leader,The Terminator
+681,Hard,shooting a guy hidden in a snowman dentist wagon with a giant tooth on top,Django Unchained
+682,Hard,throwing lobsters at fbi agents on a yacht crawling to a white sports car on drugs,The Wolf of Wall Street
+683,Hard,carving a swastika into a forehead cinema burning down with film reels,Inglourious Basterds
+684,Hard,cloning hats and birds drowning in a water tank under the stage,The Prestige
+685,Hard,cell phone ringing in a movie theater envelope of cash slid across a table,The Departed
+686,Hard,healing a urinary infection breathing out flies mouse named mr jingles,The Green Mile
+687,Hard,rule of four writing on a notepad lighthouse lobotomy cave by the ocean,Shutter Island
+688,Hard,flipping a coin to decide fate captive bolt pistol blowing out door locks,No Country for Old Men
+689,Hard,i drink your milkshake drinking from a long straw bowling alley murder,There Will Be Blood
+690,Hard,yellow tracksuit slicing off the top of a head in the snowy garden,Kill Bill: Vol. 1
+691,Hard,sailing a boat into a painted wall sky good afternoon good evening and goodnight,The Truman Show
+692,Hard,funny how like i am a clown am i here to amuse you shooting a guy in the trunk,Goodfellas
+693,Hard,little girl in a red coat in a black and white movie dropping stones on a grave,Schindler's List
+694,Hard,drinking white russians throwing ashes into the wind onto a face bowling tournament,The Big Lebowski
+695,Hard,crawling through a river of sewage listening to opera music over a loudspeaker,The Shawshank Redemption
+696,Hard,it rubs the lotion on its skin death's head moth found in a throat,The Silence of the Lambs
+697,Hard,all work and no play makes jack a dull boy creepy twins standing in the hallway,The Shining
+698,Hard,stabbing in the shower with chocolate syrup blood taxidermy birds covering the walls,Psycho
+699,Hard,horse head in the bloody bed leave the gun take the cannoli,The Godfather
+700,Hard,you talking to me mirror scene mohawk haircut saving a teenage runaway,Taxi Driver
+701,Hard,singing in the rain while kicking a guy eyes forced open to watch violent films,A Clockwork Orange
+702,Hard,we will always have paris playing it again sam piano in a smoky bar,Casablanca
+703,Hard,frankly my dear i do not give a damn making a dress out of green curtains,Gone with the Wind
+704,Hard,clicking ruby red slippers together three times melting an evil lady with a bucket of water,The Wizard of Oz
+705,Hard,dropping a glass snow globe whispering the word rosebud dying alone in a mansion,Citizen Kane
+706,Hard,blowing out a match cutting directly to a desert sunrise camel riding mirage,Lawrence of Arabia
+707,Hard,cracking creme brulee with a spoon finding a hidden metal box of childhood toys behind a wall,Amélie
+708,Hard,no face monster eating gold giant baby turning into a fat mouse train running on water,Spirited Away
+709,Hard,waiting at a bus stop in the rain with a giant furry creature flying inside a many legged catbus,My Neighbor Totoro
+710,Hard,cursed arm covered in black worms riding a red elk saving a forest spirit head,Princess Mononoke
+711,Hard,moving castle running on chicken legs fire demon eating egg shells scarecrow with a turnip head,Howl's Moving Castle
+712,Hard,invisible optical camouflage water fight pulling head off a spider tank in a museum,Ghost in the Shell
+713,Hard,giant fleshy arm mutation orbital laser strike red motorcycle sliding stopping,Akira
+714,Hard,memory erasing flash pen giant cockroach wearing an ill fitting human skin suit,Men in Black
+715,Hard,cutting a dinosaur topiary eating ambrosia salad accidentally puncturing a waterbed,Edward Scissorhands
+716,Hard,kidnapping sandy claws singing bugs in a burlap sack ghost dog with a glowing nose,The Nightmare Before Christmas
+717,Hard,licking flavored wallpaper girl turning into a giant blueberry floating in a fizzy lifting drink room,Willy Wonka & the Chocolate Factory
+718,Hard,i would buy that for a dollar toxic waste melting a guy shooting a criminal in the groin,RoboCop
+719,Hard,get to the choppa covering body in mud to hide heat signature glowing green blood,Predator
+720,Hard,come with me if you want to live crushing a red glowing eye in a hydraulic press,The Terminator
+721,Easy,mark watney mars potatoes,The Martian
+722,Easy,hugh glass bear attack,The Revenant
+723,Easy,nina sayers black swan,Black Swan
+724,Easy,andrew neiman fletcher jazz drums,Whiplash
+725,Easy,amy dunne nick dunne missing,Gone Girl
+726,Easy,lou bloom nightcrawler news,Nightcrawler
+727,Easy,theodore twombly samantha os,Her
+728,Easy,ava caleb nathan turing test,Ex Machina
+729,Easy,max rockatansky furiosa immortan joe,Mad Max: Fury Road
+730,Easy,john wick daisy dog,John Wick
+731,Easy,peter quill star lord gamora,Guardians of the Galaxy
+732,Easy,steve rogers tony stark civil war,Captain America: Civil War
+733,Easy,wade wilson deadpool ajax,Deadpool
+734,Easy,bruce wayne clark kent martha,Batman v Superman: Dawn of Justice
+735,Easy,joy sadness riley emotions,Inside Out
+736,Easy,judy hopps nick wilde zootopia,Zootopia
+737,Easy,hiro baymax san fransokyo,Big Hero 6
+738,Easy,gru minions moon,Despicable Me
+739,Easy,shrek donkey fiona,Shrek
+740,Easy,sid manny diego ice age,Ice Age
+741,Easy,thomas maze runners griever,The Maze Runner
+742,Easy,katniss peeta hunger games,The Hunger Games
+743,Easy,tris four divergent,Divergent
+744,Easy,bella edward cullens twilight,Twilight
+745,Easy,frodo sam gollum ring,The Lord of the Rings: The Fellowship of the Ring
+746,Easy,harry potter voldemort hogwarts,Harry Potter and the Philosopher's Stone
+747,Easy,percy jackson lightning thief,Percy Jackson & the Olympians: The Lightning Thief
+748,Easy,aslan narnia wardrobe,The Chronicles of Narnia: The Lion the Witch and the Wardrobe
+749,Easy,alice mad hatter wonderland,Alice in Wonderland
+750,Easy,peter pan hook neverland,Peter Pan
+751,Easy,jack sparrow black pearl,Pirates of the Caribbean: The Curse of the Black Pearl
+752,Easy,will turner elizabeth swann davy jones,Pirates of the Caribbean: Dead Man's Chest
+753,Easy,james bond casino royale,Casino Royale
+754,Easy,ethan hunt mission impossible,Mission: Impossible
+755,Easy,jason bourne amnesia cia,The Bourne Identity
+756,Easy,dominic toretto brian o'conner fast,The Fast and the Furious
+757,Easy,optimus prime megatron transformers,Transformers
+758,Easy,sam witwicky bumblebee,Transformers
+759,Easy,tony stark iron man,Iron Man
+760,Easy,bruce banner hulk,The Incredible Hulk
+761,Medium,astronaut stranded on red planet grows food,The Martian
+762,Medium,frontiersman survives bear mauling and seeks revenge,The Revenant
+763,Medium,ballet dancer loses her mind competing for lead role,Black Swan
+764,Medium,ambitious jazz drummer pushed to the brink by abusive instructor,Whiplash
+765,Medium,man becomes prime suspect when his wife goes missing on their anniversary,Gone Girl
+766,Medium,desperate man starts filming crime scenes for local news,Nightcrawler
+767,Medium,lonely writer falls in love with an artificial intelligence,Her
+768,Medium,programmer evaluates human qualities of an advanced humanoid robot,Ex Machina
+769,Medium,woman rebels against tyrannical ruler in a post apocalyptic desert,Mad Max: Fury Road
+770,Medium,ex hitman comes out of retirement after russian mobsters kill his puppy,John Wick
+771,Medium,space adventurers team up to stop a fanatic from destroying the galaxy,Guardians of the Galaxy
+772,Medium,politicians form a system of accountability causing a rift between the avengers,Captain America: Civil War
+773,Medium,wisecracking mercenary hunts down the man who subjected him to mutant experiments,Deadpool
+774,Medium,gotham vigilante takes on metropolis savior while a new threat arises,Batman v Superman: Dawn of Justice
+775,Medium,five personified emotions struggle to guide a girl through a tough move,Inside Out
+776,Medium,rookie bunny cop and cynical fox must work together to uncover a conspiracy,Zootopia
+777,Medium,robotics prodigy bonds with an inflatable healthcare robot,Big Hero 6
+778,Medium,supervillain adopts three orphan girls as part of his plot to shrink the moon,Despicable Me
+779,Medium,ogre and donkey rescue a princess to get his swamp back,Shrek
+780,Medium,mammoth sloth and saber toothed tiger return a human baby to its tribe,Ice Age
+781,Medium,boy wakes up in a maze with no memory of the outside world,The Maze Runner
+782,Medium,teenagers fight to the death in a televised arena event,The Hunger Games
+783,Medium,girl in a futuristic society where people are divided into factions,Divergent
+784,Medium,teenage girl moves to a new town and falls for a vampire,Twilight
+785,Medium,fellowship embarks on a quest to destroy the one ring,The Lord of the Rings: The Fellowship of the Ring
+786,Medium,orphaned boy discovers he is a wizard and attends a magical school,Harry Potter and the Philosopher's Stone
+787,Medium,teenager discovers he is the descendant of a greek god,Percy Jackson & the Olympians: The Lightning Thief
+788,Medium,siblings travel through a wardrobe to a magical land of talking animals,The Chronicles of Narnia: The Lion the Witch and the Wardrobe
+789,Medium,girl falls down a rabbit hole into a fantasy world,Alice in Wonderland
+790,Medium,mischievous boy who can fly takes children to a magical island,Peter Pan
+791,Medium,blacksmith joins forces with an eccentric pirate to rescue his love,Pirates of the Caribbean: The Curse of the Black Pearl
+792,Medium,pirate captain owes a blood debt to the legendary ruler of the ocean depths,Pirates of the Caribbean: Dead Man's Chest
+793,Medium,newly promoted agent investigates a terrorist financier in a poker game,Casino Royale
+794,Medium,secret agent must prevent a mole from stealing a cia list,Mission: Impossible
+795,Medium,man with memory loss is hunted by assassins while trying to find out who he is,The Bourne Identity
+796,Medium,undercover cop infiltrates a world of street racing to catch hijackers,The Fast and the Furious
+797,Medium,ancient war between two alien robot races reaches earth,Transformers
+798,Medium,teenager buys his first car which turns out to be an alien robot,Transformers
+799,Medium,billionaire builds an armored suit to escape captivity,Iron Man
+800,Medium,scientist transforms into a giant green monster when enraged,The Incredible Hulk
+801,Hard,planting potatoes in human waste duct tape on helmet,The Martian
+802,Hard,sleeping inside a dead horse crawling through the snow,The Revenant
+803,Hard,pulling a feather out of shoulder stabbing self with glass,Black Swan
+804,Hard,bleeding hands drumming throwing a chair at his head,Whiplash
+805,Hard,faking her own death smashing face with a hammer,Gone Girl
+806,Hard,moving a dead body for a better camera angle mirror screaming,Nightcrawler
+807,Hard,playing a ukulele in bed ear piece romance,Her
+808,Hard,tearing up a drawing stabbing with a glass knife helicopter,Ex Machina
+809,Hard,playing a flaming guitar on a speeding truck spraying silver on teeth,Mad Max: Fury Road
+810,Hard,digging up weapons with a sledgehammer pencil bar kill,John Wick
+811,Hard,dancing to distract a villain saving the universe with a cassette tape,Guardians of the Galaxy
+812,Hard,holding a helicopter back with bare hands giant ant man at airport,Captain America: Civil War
+813,Hard,cutting off own hand to escape handcuffs drawing on a bridge,Deadpool
+814,Hard,glowing green spear fighting a rock monster saving his mom named martha,Batman v Superman: Dawn of Justice
+815,Hard,imaginary elephant friend fades away into dust crying on a bus,Inside Out
+816,Hard,sloths working at the dmv stepping on a tiny mouse rug,Zootopia
+817,Hard,upgrading an inflatable balloon with armor microbots in a warehouse,Big Hero 6
+818,Hard,vector orange tracksuit stealing a pyramid from egypt,Despicable Me
+819,Hard,blowing up a balloon snake making waffles in the morning,Shrek
+820,Hard,fighting over a dandelion running away from a glacier,Ice Age
+821,Hard,giant mechanical spiders chasing kids in a labyrinth,The Maze Runner
+822,Hard,volunteering for little sister poisoned berries fire dress,The Hunger Games
+823,Hard,jumping off a building onto a net throwing knives at a target,Divergent
+824,Hard,sparkling in the sunlight playing baseball in a thunderstorm,Twilight
+825,Hard,fighting a fiery demon on a bridge hiding under a tree root from black riders,The Lord of the Rings: The Fellowship of the Ring
+826,Hard,giant chess game flying keys troll in the dungeon,Harry Potter and the Philosopher's Stone
+827,Hard,flying shoes fighting a minotaur water powers in a museum,Percy Jackson & the Olympians: The Lightning Thief
+828,Hard,eating turkish delight snow queen breaking a stone table,The Chronicles of Narnia: The Lion the Witch and the Wardrobe
+829,Hard,painting white roses red disappearing cat drinking potion to shrink,Alice in Wonderland
+830,Hard,sewing a shadow back on ticking crocodile hook hand,Peter Pan
+831,Hard,walking underwater with a boat overhead apple curse compass pointing to what you want,Pirates of the Caribbean: The Curse of the Black Pearl
+832,Hard,tentacle beard playing an organ giant squid eating a ship,Pirates of the Caribbean: Dead Man's Chest
+833,Hard,poisoned drink at a poker table defibrillator in the car,Casino Royale
+834,Hard,dropping from the ceiling on a wire catching a sweat drop hacking a computer,Mission: Impossible
+835,Hard,fighting with a pen shooting a sniper in a snowy field,The Bourne Identity
+836,Hard,driving a supra under a semi truck jumping train tracks,The Fast and the Furious
+837,Hard,yellow camaro radio speaking glasses code,Transformers
+838,Hard,running with a glowing cube fighting a jet on a building,Transformers
+839,Hard,building a reactor in a cave with scraps escaping in clunky armor,Iron Man
+840,Hard,heart rate monitor drinking green liquid fighting a bone monster,The Incredible Hulk
+841,Easy,alan turing enigma machine,The Imitation Game
+842,Easy,john nash mathematics schizophrenia,A Beautiful Mind
+843,Easy,stephen hawking physics black holes,The Theory of Everything
+844,Easy,edward snowden nsa surveillance,Snowden
+845,Easy,steve jobs apple computer,Jobs
+846,Easy,kevin flynn the grid light cycle,Tron: Legacy
+847,Easy,ethan hunt dubai burj khalifa,Mission: Impossible - Ghost Protocol
+848,Easy,james bond aston martin mi6,Skyfall
+849,Easy,dom toretto letty ortiz family,Fast & Furious 6
+850,Easy,brian o'conner paul walker tribute,Furious 7
+851,Easy,hobbit smaug barrel ride,The Hobbit: The Desolation of Smaug
+852,Easy,frodo baggins elrond rivendell,The Lord of the Rings: The Fellowship of the Ring
+853,Easy,harry potter dementor patronus,Harry Potter and the Prisoner of Azkaban
+854,Easy,peter parker gwen stacy lizard,The Amazing Spider-Man
+855,Easy,bruce wayne bane pit,The Dark Knight Rises
+856,Easy,clark kent general zod krypton,Man of Steel
+857,Easy,tony stark mandarin extremis,Iron Man 3
+858,Easy,steve rogers falcon helicarrier,Captain America: The Winter Soldier
+859,Easy,thor malekith aether,Thor: The Dark World
+860,Easy,star lord ronan dance off,Guardians of the Galaxy
+861,Easy,ant man yellowjacket shrinking,Ant-Man
+862,Easy,t-rex velociraptor isla nublar,Jurassic Park
+863,Easy,indiana jones ark covenant nazis,Raiders of the Lost Ark
+864,Easy,marty mcfly hoverboard almanac,Back to the Future Part II
+865,Easy,sarah connor t-1000 liquid metal,Terminator 2: Judgment Day
+866,Easy,neo architect zion,The Matrix Reloaded
+867,Easy,max rockatansky war boys valhalla,Mad Max: Fury Road
+868,Easy,john wick mustang babayaga,John Wick
+869,Easy,katniss everdeen mockingjay coin,The Hunger Games: Mockingjay - Part 1
+870,Easy,tris prior erudite abnegation,Divergent
+871,Easy,thomas teresa glade,The Maze Runner
+872,Easy,bella swan jacob black motorcycle,The Twilight Saga: New Moon
+873,Easy,shrek fairy godmother holding out for a hero,Shrek 2
+874,Easy,manny sid diego meltdown,Ice Age: The Meltdown
+875,Easy,woody buzz lotso daycare,Toy Story 3
+876,Easy,nemo darla dentist,Finding Nemo
+877,Easy,mr incredible syndrome omnidroid,The Incredibles
+878,Easy,sulley mike randall door vault,Monsters, Inc.
+879,Easy,lightning mcqueen doc hudson piston cup,Cars
+880,Easy,remy gusteau eiffel tower,Ratatouille
+881,Medium,mathematician breaks german code during world war 2,The Imitation Game
+882,Medium,brilliant mathematician suffers from delusions and works for government,A Beautiful Mind
+883,Medium,brilliant physicist struggles with a motor neuron disease while making cosmic discoveries,The Theory of Everything
+884,Medium,contractor leaks highly classified intelligence from national security agency,Snowden
+885,Medium,entrepreneur introduces the ipod and changes the tech industry,Jobs
+886,Medium,son searches for his father inside a digital world of glowing grids,Tron: Legacy
+887,Medium,spy scales the tallest building in the world to stop a nuclear extremist,Mission: Impossible - Ghost Protocol
+888,Medium,british spy protects his boss from a cyber terrorist on a scottish estate,Skyfall
+889,Medium,street racers work with diplomatic security service to take down a mercenary,Fast & Furious 6
+890,Medium,crew seeks revenge against an assassin while recovering a hacker program,Furious 7
+891,Medium,dwarves escape in barrels down a river while being chased by orcs,The Hobbit: The Desolation of Smaug
+892,Medium,a council of elves men and dwarves decide the fate of a cursed ring,The Lord of the Rings: The Fellowship of the Ring
+893,Medium,wizard uses a time turner to save a hippogriff and his godfather,Harry Potter and the Prisoner of Azkaban
+894,Medium,teenager gets bitten by a spider and fights a scientist turned reptile,The Amazing Spider-Man
+895,Medium,broken vigilante escapes an underground prison to save his city from a bomb,The Dark Knight Rises
+896,Medium,alien uses the sun to get powers and fights survivors from his home planet,Man of Steel
+897,Medium,billionaire suffers ptsd and fights a terrorist using heat technology,Iron Man 3
+898,Medium,super soldier discovers a conspiracy within his own espionage agency,Captain America: The Winter Soldier
+899,Medium,thunder god protects his human girlfriend from a dark elf seeking reality altering weapon,Thor: The Dark World
+900,Medium,thief steals an orb and teams up with aliens to escape a prison,Guardians of the Galaxy
+901,Medium,ex convict wears a suit that allows him to shrink and command insects,Ant-Man
+902,Medium,scientist distracts a dinosaur with a flare to save children in a car,Jurassic Park
+903,Medium,archaeologist races against nazis to find a biblical artifact that melts faces,Raiders of the Lost Ark
+904,Medium,teenager travels to the future to prevent his kids from going to jail,Back to the Future Part II
+905,Medium,shape shifting robot from the future tries to kill a teenage boy on a dirt bike,Terminator 2: Judgment Day
+906,Medium,the chosen one meets the creator of the simulation in a white room,The Matrix Reloaded
+907,Medium,wives of a warlord escape across a desert wasteland in an armored truck,Mad Max: Fury Road
+908,Medium,assassin kills mobsters in a nightclub with neon lights,John Wick
+909,Medium,symbol of the rebellion records propaganda videos in an underground bunker,The Hunger Games: Mockingjay - Part 1
+910,Medium,girl with a special mind tries to stop a faction leader from controlling an army,Divergent
+911,Medium,boys try to find a way out of a shifting stone labyrinth full of monsters,The Maze Runner
+912,Medium,depressed girl finds comfort in a werewolf after her vampire boyfriend leaves,The Twilight Saga: New Moon
+913,Medium,ogre travels to a kingdom far far away and drinks a handsome potion,Shrek 2
+914,Medium,prehistoric animals try to escape a flooded valley as a giant dam breaks,Ice Age: The Meltdown
+915,Medium,toys escape from a tyrannical pink bear at a daycare center,Toy Story 3
+916,Medium,fish clogs a filter in a tank to escape back to the ocean,Finding Nemo
+917,Medium,superhero sneaks onto a remote island and fights a giant spherical robot,The Incredibles
+918,Medium,monsters ride on millions of closet doors suspended on rails,Monsters, Inc.
+919,Medium,race car fixes a road using a machine named bessie,Cars
+920,Medium,rat makes a peasant dish that brings a strict food critic to tears,Ratatouille
+921,Hard,running a machine named christopher poisoned apple cyanide,The Imitation Game
+922,Hard,seeing imaginary roommates in a college dorm writing equations on windows,A Beautiful Mind
+923,Hard,motorized wheelchair speaking through a computer tracing a glowing circle,The Theory of Everything
+924,Hard,hiding a memory card in a rubik cube giving an interview in a hotel room,Snowden
+925,Hard,soaking feet in a toilet arguing in a garage over circuit boards,Jobs
+926,Hard,throwing glowing discs identifying as a user light cycle arena,Tron: Legacy
+927,Hard,magnetic gloves failing on a glass window fighting in a sandy car park,Mission: Impossible - Ghost Protocol
+928,Hard,catching a train cab with a digger falling into an icy lake with a flashlight,Skyfall
+929,Hard,driving a tank out of a truck on a bridge catching a girl jumping across a highway,Fast & Furious 6
+930,Hard,driving a red sports car through three skyscrapers dropping cars from an airplane,Furious 7
+931,Hard,riding empty barrels down a waterfall fighting a dragon covered in gold,The Hobbit: The Desolation of Smaug
+932,Hard,you shall not pass breaking a stone bridge with a staff falling into the abyss,The Lord of the Rings: The Fellowship of the Ring
+933,Hard,fighting a werewolf in the woods flying a hippogriff over a lake,Harry Potter and the Prisoner of Azkaban
+934,Hard,making web shooters in a bedroom fighting a giant lizard on a tower,The Amazing Spider-Man
+935,Hard,climbing a stone wall without a rope chanting in a prison pit nuclear explosion over water,The Dark Knight Rises
+936,Hard,snapping a neck in a train station fighting in a cornfield wearing a black suit,Man of Steel
+937,Hard,remote controlling a suit attacking a mansion with helicopters glowing orange skin,Iron Man 3
+938,Hard,fighting in a glass elevator shield ricocheting off a metal arm,Captain America: The Winter Soldier
+939,Hard,fighting across portals through different realms mom dies protecting girlfriend,Thor: The Dark World
+940,Hard,holding a glowing purple stone holding hands to share the power cassette tape mix,Guardians of the Galaxy
+941,Hard,fighting on a thomas the tank engine toy shrinking into a subatomic realm,Ant-Man
+942,Hard,water rippling in a cup throwing a flare down a toilet stall,Jurassic Park
+943,Hard,melting face off nazi opening a gold box keeping eyes shut,Raiders of the Lost Ark
+944,Hard,flying delorean hoverboard chase over water sports almanac,Back to the Future Part II
+945,Hard,thumbs up melting in lava liquid metal freezing in liquid nitrogen,Terminator 2: Judgment Day
+946,Hard,fighting hundreds of copies of the same guy in a courtyard stopping bullets with a hand,The Matrix Reloaded
+947,Hard,playing a flaming guitar on a speeding truck spraying silver paint on teeth,Mad Max: Fury Road
+948,Hard,shooting a guy through a door using a pencil to kill three men,John Wick
+949,Hard,shooting a plane down with a flaming arrow singing the hanging tree,The Hunger Games: Mockingjay - Part 1
+950,Hard,throwing knives at a target jumping onto a moving train choosing a bowl of stones,Divergent
+951,Hard,getting stung by a griever mapping a changing wall injecting a blue serum,The Maze Runner
+952,Hard,cliff diving to hear a voice tearing up paper cuts riding a motorcycle in the rain,The Twilight Saga: New Moon
+953,Hard,giant gingerbread man attacking a castle fairy godmother turning into bubbles,Shrek 2
+954,Hard,fighting underwater reptiles possums playing dead acorn creating a giant crack in ice,Ice Age: The Meltdown
+955,Hard,holding hands sliding towards an incinerator spanish mode reset claw machine aliens,Toy Story 3
+956,Hard,bouncing on jellyfish swimming down in a net playing dead in a plastic bag,Finding Nemo
+957,Hard,throwing a submarine at a robot pressing a button with a laser pointer no capes,The Incredibles
+958,Hard,putting a child in a garbage can singing put that thing back where it came from,Monsters, Inc.
+959,Hard,tying up tractors pushing a car over the finish line driving backwards,Cars
+960,Hard,pulling hair to chop vegetables looking at the eiffel tower from a window tasting cheese and strawberry,Ratatouille
+961,Easy,eggsy harry hart kingsman umbrella,Kingsman: The Secret Service
+962,Easy,dave lizewski hit-girl big daddy,Kick-Ass
+963,Easy,mclovin fake id fogell,Superbad
+964,Easy,cady heron regina george plastics,Mean Girls
+965,Easy,elle woods harvard law chihuahua,Legally Blonde
+966,Easy,miranda priestly andrea sachs fashion magazine,The Devil Wears Prada
+967,Easy,kevin mccallister wet bandits traps,Home Alone
+968,Easy,buddy north pole new york elf,Elf
+969,Easy,bruce nolan god morgan freeman,Bruce Almighty
+970,Easy,stanley ipkiss green mask loki,The Mask
+971,Easy,ace ventura pet detective dolphin,Ace Ventura: Pet Detective
+972,Easy,austin powers dr evil mojo,Austin Powers: International Man of Mystery
+973,Easy,derek zoolander blue steel male model,Zoolander
+974,Easy,ron burgundy channel 4 news team,Anchorman: The Legend of Ron Burgundy
+975,Medium,street kid is recruited into a secret british spy organization,Kingsman: The Secret Service
+976,Medium,comic book nerd decides to become a real life superhero,Kick-Ass
+977,Medium,high school seniors try to buy alcohol for a party,Superbad
+978,Medium,homeschooled girl navigates the social hierarchy of high school cliques,Mean Girls
+979,Medium,sorority girl follows her ex boyfriend to harvard law school,Legally Blonde
+980,Medium,young woman lands a job as an assistant to a demanding fashion magazine editor,The Devil Wears Prada
+981,Medium,eight year old boy protects his house from burglars on christmas,Home Alone
+982,Medium,human raised by elves travels to new york to find his biological father,Elf
+983,Medium,tv reporter complains to god and is given almighty powers,Bruce Almighty
+984,Medium,bank clerk finds a magical wooden mask that transforms him into a manic trickster,The Mask
+985,Medium,goofy detective is hired to find the missing mascot of the miami dolphins,Ace Ventura: Pet Detective
+986,Medium,cryogenically frozen british spy is awakened in the nineties to fight his nemesis,Austin Powers: International Man of Mystery
+987,Medium,dimwitted male model is brainwashed to assassinate the prime minister of malaysia,Zoolander
+988,Hard,manners maketh man locking the pub doors with an umbrella,Kingsman: The Secret Service
+989,Hard,little girl in purple wig shoots criminals listening to loud music,Kick-Ass
+990,Hard,getting hit by a police car to avoid buying beer drawing inappropriate pictures,Superbad
+991,Hard,wearing pink on wednesdays getting hit by a bus,Mean Girls
+992,Hard,bend and snap scented pink resume,Legally Blonde
+993,Hard,cerulean blue sweater throwing a steak in the trash,The Devil Wears Prada
+994,Hard,putting a tarantula on a face burning a hand on a doorknob,Home Alone
+995,Hard,pouring maple syrup on spaghetti eating cotton balls in a doctor office,Elf
+996,Hard,pulling the moon closer splitting a bowl of tomato soup like the red sea,Bruce Almighty
+997,Hard,swallowing a bomb making a balloon animal out of a machine gun,The Mask
+998,Hard,talking from behind catching a bullet in the teeth at the super bowl,Ace Ventura: Pet Detective
+999,Hard,judo chop losing inner mojo throwing a shoe randomly,Austin Powers: International Man of Mystery
+1000,Hard,gasoline fight at a gas station magnum look stopping a throwing star,Zoolander

@@ -5,9 +5,11 @@ from algorithm.tfidf_algorithm import TFIDF
 from algorithm.TFIDFCosine import TFIDFCosine
 from algorithm.hybrid_algorithm import HybridSearch
 from algorithm.spell_checker import SpellChecker
+from eval.evaluation import Evaluation
+import time
 
 # Cấu hình trang cơ bản
-st.set_page_config(page_title="Movie Retrieval Engine", page_icon="M", layout="wide", initial_sidebar_state="collapsed")
+st.set_page_config(page_title="Movie Retrieval Engine", page_icon="M", layout="wide", initial_sidebar_state="expanded")
 
 # Tải giao diện Frontend
 import frontend.ui as ui
@@ -52,9 +54,11 @@ def load_system():
     corpus_texts = df['overview'].tolist() + df['name'].tolist()
     spell_checker = SpellChecker(corpus_texts)
     
-    return df, bm25, tfidf, tfidf_cosine, hybrid, spell_checker
+    evaluator = Evaluation(df=df)
+    
+    return df, bm25, tfidf, tfidf_cosine, hybrid, spell_checker, evaluator
 
-df, bm25, tfidf, tfidf_cosine, hybrid, spell_checker = load_system()
+df, bm25, tfidf, tfidf_cosine, hybrid, spell_checker, evaluator = load_system()
 
 # --- QUẢN LÝ SESSION STATE ---
 if 'selected_movie_id' not in st.session_state: st.session_state.selected_movie_id = None
@@ -104,6 +108,32 @@ else:
     top_n_limit = fcol5.number_input("Top Results:", 1, 100, 18)
     st.markdown('</div>', unsafe_allow_html=True)
 
+    # --- BATCH EVALUATION BUTTON ---
+    with st.sidebar:
+        st.subheader("System Evaluation")
+        if st.button("Run Batch Evaluation", use_container_width=True):
+            with st.spinner(f"Evaluating {algo_choice}..."):
+                # Determine model
+                if algo_choice == "BM25": model = bm25
+                elif algo_choice == "TF-IDF": model = tfidf
+                elif algo_choice == "TF-IDF Cosine": model = tfidf_cosine
+                elif algo_choice == "Hybrid (BM25 + TF-IDF)": model = hybrid
+                else: model = hybrid # Hybrid + PRF
+                
+                use_prf = (algo_choice == "Hybrid + PRF")
+                
+                avg_metrics = evaluator.calculate_batch_metrics(
+                    model, df, k=top_n_limit, use_prf=use_prf
+                )
+                
+                if avg_metrics:
+                    st.success(f"Batch Evaluation for {algo_choice} completed!")
+                    evaluator.print_batch_report(algo_choice, avg_metrics)
+                    st.write(avg_metrics)
+                    st.info("Check terminal for full report.")
+                else:
+                    st.error("No ground truth queries found or error during evaluation.")
+
     btn_col1, btn_col2, _ = st.columns([1, 1, 4])
     perform_search = btn_col1.button("Search", use_container_width=True, on_click=trigger_search_callback)
     
@@ -138,6 +168,7 @@ else:
                 st.session_state.current_page = 1
             st.button(f"Apply correction: {corrected}", on_click=fix_and_rerun)
 
+        start_time = time.time()
         if algo_choice == "BM25": scores = bm25.get_scores(search_query)
         elif algo_choice == "TF-IDF": scores = tfidf.get_scores(search_query)
         elif algo_choice == "TF-IDF Cosine": scores = tfidf_cosine.get_scores(search_query)
@@ -145,6 +176,8 @@ else:
         else: 
             scores = hybrid.get_scores_with_prf(search_query, prf_n, prf_k)
             st.info(f"Expanded Search Query: {hybrid.last_expanded_query}")
+        end_time = time.time()
+        exec_time = end_time - start_time
 
         valid = filter_idx(df)
         indices = [i for i, s in sorted(enumerate(scores), key=lambda x: x[1], reverse=True) if i in valid and s > 0][:top_n_limit]
@@ -153,6 +186,10 @@ else:
         st.session_state.search_scores = scores
         st.session_state.applied_algo = algo_choice
         st.session_state.current_page = 1
+
+        # In báo cáo ra terminal
+        retrieved_movie_ids = df.iloc[indices]['id'].tolist()
+        evaluator.print_report(algo_choice, search_query, retrieved_movie_ids, exec_time, k=top_n_limit)
 
     if st.session_state.search_results is not None:
         indices = st.session_state.search_results
